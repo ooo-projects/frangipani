@@ -1,0 +1,111 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: Pink;
+background-image: url('./seaplants.png');
+background-size: cover;
+z-index: 3;
+font-family: serif;
+
+}
+
+@keyframes wavy{
+
+from {background-color: SlateBlue;}
+to {background-color: LemonChiffon;}
+
+}
+
+.sargent {
+
+position: fixed;
+size: 20%;
+Z-index: 0;
+}
+
+
+.disco {
+
+position: fixed;
+left: 35px;
+Z-index: 1;
+transform: rotate(20deg);
+
+}
+
+.glitter {
+
+position: fixed;
+left: 300px;
+top: 200px;
+Z-index: 3;
+
+}
+
+
+.centered{
+
+position: absolute;
+top: 25%;
+left: 32%;
+z-index: 4;
+
+}
+
+.buttons{
+
+
+animation-duration: 1s;
+animation-direction: reverse;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background-color: Gainsboro;
+position: fixed;
+z-index: 1;
+top: 92%;
+left: 92%;
+
+}
+
+.skull {
+
+color: OldLace;
+}
+
+.underlined {
+
+color: Red;
+font-family: serif;
+display: inline;
+
+}
+
+
+.title {
+
+text-align: center;
+color: Red;
+
+}
+.marqueehome {
+position: fixed;
+Top: 95%;
+left: 75%;
+font-size: 15px;
+font-family: 'Handjet';
+Color: aquamarine;
+
+}
+
+mark {
+
+Color: white;
+background-color: red;
+
+
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym827.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym827.png), auto !important;} /* End https://www.cursors-4u.com */
