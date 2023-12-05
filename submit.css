@@ -10,6 +10,16 @@ Text-align: right;
 
 
 
+a {
+color: red;
+text-decoration: none;
+
+
+}
+
+a:visited {
+color: red;
+}
 
 
 
