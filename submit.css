@@ -1,14 +1,12 @@
 
 body {
 Background-color: rebeccapurple;
+background-image: conic-gradient(pink, yellow, lightpink);
+background-size: contain;
 color: red;
 Font-size: 18px;
-Text-align: right;
+Text-align: center;
 }
-
-
-
-
 
 a {
 color: red;
@@ -20,13 +18,6 @@ text-decoration: none;
 a:visited {
 color: red;
 }
-
-
-
-
-
-
-
 
 
 
