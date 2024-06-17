@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cover</title>
+<link href = './fr_landing.css' rel = 'stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<style>
+ html {
+        cursor: url('./YellowSquare.png'), auto !important;
+	cursor: url('./YellowSquare.png'), pointer !important;
+        }
+
+</style>
+
+<p class = "pad" id = "WP"> 
+<span class = "red">
+<i>Frangipani</i> is a nebulous magazine which aims to become a landing place for ideas on literary culture in Lagos, Nigeria for a fixed period of time. 
+<br>
+It is <i>nebulous</i> in the sense that the shape of each issue is determined by the wishes and capacities of its contributors.
+<br>
+It is interested in <i>Lagos, Nigeria</i> insofar as its initiator is from here and living here, hoping to grow the magazine via personal connections to artists living in the city. But it is closed to neither contributions nor interest from <i>elsewhere</i>.
+<br>
+It is <i>temporary</i> insofar as its subject is constantly changing, and it wishes to become dormant or defunct once it is no longer useful. 
+<br>
+The provisional format for the first issue is loose. It will include, in one form or another: 
+<br>
+&#x2051 craft essays,
+<br>
+&#x2051 interviews,
+<br>
+&#x2051 poetry,
+<br>
+&#x2051 playlists, and
+<br>
+&#x2051 a magazine within the magazine.
+<br>
+If you would like to be involved in any capacity in producing it, kindly send an email to me: tsemone@gmail.com, and we can talk. I will send you a mock-up of the <i>first issue</i> as an introductory measure - to guide our imaginations.
+</span>
+</p>
+
+<p class = "pad2"> 
+<span class = "black">
+<i>Frangipani</i> is a nebulous magazine which aims to become a landing place for ideas on literary culture in Lagos, Nigeria for a fixed period of time. 
+<br>
+It is <i>nebulous</i> in the sense that the shape of each issue is determined by the wishes and capacities of its contributors.
+<br>
+It is interested in <i>Lagos, Nigeria</i> insofar as its initiator is from here and living here, hoping to grow the magazine via personal connections to artists living in the city. But it is closed to neither contributions nor interest from <i>elsewhere</i>.
+<br>
+It is <i>temporary</i> insofar as its subject is constantly changing, and it wishes to become dormant or defunct once it is no longer useful.
+<br>
+The provisional format for the first issue is loose. It will include, in one form or another: 
+<br>
+&#x2051 craft essays,
+<br>
+&#x2051 interviews,
+<br>
+&#x2051 poetry,
+<br>
+&#x2051 playlists, and
+<br>
+&#x2051 a magazine within the magazine.
+<br>
+If you would like to be involved in any capacity in producing it, kindly send an email to me: tsemone@gmail.com, and we can talk. I will send you a mock-up of the <i>first issue</i> as an introductory measure - to guide our imaginations...
+</span>
+</p>
+
+
+<input type="button" class="button" value="Black Text" onclick="removeWP()">
+
+<span id="clock"></span>
+
+<script>
+(function () {
+
+  var clockElement = document.getElementById( "clock" );
+
+  function updateClock ( clock ) {
+    clock.innerHTML = new Date().toLocaleTimeString();
+  }
+
+  setInterval(function () {
+      updateClock( clockElement );
+  }, 1000);
+
+}());
+
+</script>
+
+  <script>
+    function removeWP() {
+      var elem = document.getElementById('WP');
+      elem.parentNode.removeChild(elem);
+      return false;
+    }
+  </script>
+
+</body>
+</html>
