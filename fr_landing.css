@@ -74,9 +74,28 @@ font-family: sans-serif;
 
 }
 
+
+
 #clock {
 position: fixed;
 background: white;
 color: red;
 padding-left: 2%;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+.red {
+
+background: black;
+color: white;
+}
+.black {
+
+background: white;
+color: black;
+}
+
+
 }
