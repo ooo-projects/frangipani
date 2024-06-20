@@ -1,0 +1,37 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: white;
+color: black;
+font-family: 'Nanum Myeongjo';
+font-size: 30px;
+
+}
+
+.writing {
+padding-top: 5%;
+padding-left: 21%;
+padding-right: 21%;
+
+}
+
+.dots {
+border: 1px solid black;
+}
+
+.title {
+text-align: center;
+text-decoration-color: underline chartreuse;
+
+}
+
+
+a {
+font-family: 'Nanum Myeongjo';
+font-size: 30px;
+text-decoration: none;
+color: blue;
+}
