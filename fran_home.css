@@ -6,7 +6,7 @@ font-family: 'crystopia';
 color: #171717;
 font-size: 25px;
 padding-left: 40%;
-padding-top: 10%;
+padding-top: 9%;
 cursor: help;
 }
 
@@ -31,6 +31,7 @@ padding: 2px;
 box-shadow: 2px 2px 5px fuchsia;
 text-shadow: 1px 1px 3px fuchsia;
 width: 240px;
+
 }
 
 
@@ -42,6 +43,7 @@ box-shadow: 2px 2px 5px lime;
 text-shadow: 1px 1px 3px lime;
 color: #171717;
 width: 240px;
+height: 365px;
 overflow: scroll;
 }
 
@@ -61,6 +63,7 @@ padding: 2px;
 box-shadow: 2px 2px 5px lime;
 color: lime;
 width: 240px;
+height: 365px;
 overflow: scroll;
 
 }
