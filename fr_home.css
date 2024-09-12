@@ -1,0 +1,36 @@
+
+body {
+
+top: 0;
+left: 0;
+background-color: white;
+background-image: url('fr_1.png');
+background-size: cover;
+font-family: "Inconsolata", serif;
+font-size: 22px;
+color: red;
+
+}
+
+a.coverpage {
+
+text-decoration: none;
+color: red;
+}
+
+a.coverpage:visited {
+color: red;
+text-decoration: none;
+}
+
+a.coverpage:hover {
+
+color: cyan;
+}
+
+.coverpage {
+left: 35%;
+top: 71%;
+position: fixed;
+
+}
