@@ -1,0 +1,21 @@
+
+
+body {
+
+text-align: right;
+top: 0;
+left: 0;
+background-color: #d3b998;
+font-size: 20px;
+font-family: serif;
+}
+
+@font-face {
+  font-family: AntonRegular; /* set name */
+  src: url('./Anton/Anton-Regular.ttf'); /* url of the font */
+}
+
+.title {
+font-family: "AntonRegular";
+font-size: 87px;
+}
