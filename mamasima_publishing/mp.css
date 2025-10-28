@@ -23,7 +23,7 @@ top: 15%;
 transform: rotate(-5deg);
 border-radius: 15px;
 border: 2px dotted ghostwhite;
-filter: saturate(145%);
+filter: saturate(111%);
 }
 
 
@@ -40,7 +40,7 @@ top: 15%;
 transform: rotate(5deg);
 border-radius: 15px;
 border: 2px dotted white;
-filter: saturate(145%);
+filter: saturate(111%);
 }
 
 
@@ -52,7 +52,7 @@ filter: grayscale(100%);
 
 .title {
 -webkit-text-stroke: 1px ghostwhite;
-color: blue;
+color: green;
 letter-spacing: 2px;
 -webkit-text-stroke: 1px ghostwhite;
 overflow: scroll;
@@ -84,9 +84,9 @@ color: black;
 padding: 1.5%;
 font-size: 15px;
 font-style: italic;
-border-top: 1px solid cyan;
+border-top: 1px dashed cyan;
 border-left: 1px solid pink;
-border-right: 1px solid blue;
+border-right: 1px dashed chartreuse;
 border-bottom: 1px solid yellow;
 overflow: scroll;
 
@@ -122,5 +122,13 @@ bottom: 10%;
 .hover {
 
 cursor: pointer;
+
+}
+
+.arrow {
+
+filter: invert(100%);
+position: fixed;
+right: 5%;
 
 }
