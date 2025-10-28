@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+
+top: 0;
+left: 0;
+font-size: 20px;
+font-family: serif;
+text-align: left;
+padding: 1%;
+background-color: black;
+}
+
+
+.card1 {
+position: absolute;
+left: 3%;
+top: 15%;
+transform: rotate(-5deg);
+border-radius: 15px;
+border: 2px dotted ghostwhite;
+filter: saturate(145%);
+}
+
+
+.card1:hover {
+filter: grayscale(100%);
+
+
+}
+
+.card2 {
+position: absolute;
+left: 20%;
+top: 15%;
+transform: rotate(5deg);
+border-radius: 15px;
+border: 2px dotted white;
+filter: saturate(145%);
+}
+
+
+.card2:hover {
+filter: grayscale(100%);
+
+
+}
+
+.title {
+-webkit-text-stroke: 1px ghostwhite;
+color: black;
+letter-spacing: 2px;
+max-width: 570px;
+overflow: scroll;
+}
+
+
+.me {
+-webkit-text-stroke: 1px ghostwhite;
+color: black;
+letter-spacing: 2px;
+max-width: 570px;
+overflow: scroll;
+position: fixed;
+bottom: 40%;
+transform: rotate(2deg);
+color: blue;
+}
+
+.whitebox {
+
+background-color: gainsboro;
+width: 650px;
+height: 650px;
+position: fixed;
+right: 2%;
+top: 10%;
+-webkit-text-stroke: none;
+color: black;
+padding: 1.5%;
+font-size: 15px;
+font-style: italic;
+border-top: 1px solid blue;
+border-left: 1px solid red;
+border-right: 1px solid blue;
+border-bottom: 1px solid yellow;
+overflow: scroll;
+}
+
+
+
+.logo {
+
+position: fixed;
+left: 3%;
+bottom: 3%;
+}
+
+
+.inquiries {
+
+width: 200px;
+height: 200px;
+background-color: #c8ed44;
+color: black;
+font-family: courier;
+font-size: 13px;
+padding: 0.5%;
+position: fixed;
+bottom: 5%;
+transform: rotate(-5deg);
+left: 20%;
+bottom: 10%;
+}
+
+
+.hover {
+
+cursor: pointer;
+
+}
