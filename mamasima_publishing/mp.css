@@ -22,7 +22,7 @@ left: 3%;
 top: 15%;
 transform: rotate(-5deg);
 border-radius: 15px;
-border: 2px dotted ghostwhite;
+border: 1.25px dashed ghostwhite;
 filter: saturate(111%);
 }
 
@@ -39,7 +39,7 @@ left: 20%;
 top: 15%;
 transform: rotate(5deg);
 border-radius: 15px;
-border: 2px dotted white;
+border: 1.25px dashed white;
 filter: saturate(111%);
 }
 
@@ -52,7 +52,7 @@ filter: grayscale(100%);
 
 .title {
 -webkit-text-stroke: 1px ghostwhite;
-color: green;
+color: lawngreen;
 letter-spacing: 2px;
 -webkit-text-stroke: 1px ghostwhite;
 overflow: scroll;
@@ -108,14 +108,16 @@ width: 200px;
 height: 200px;
 background-color: #c8ed44;
 color: black;
-font-family: courier;
-font-size: 13px;
+font-family: cursive;
+color: blue;
+font-size: 14px;
 padding: 0.5%;
 position: fixed;
 bottom: 5%;
 transform: rotate(-5deg);
 left: 20%;
 bottom: 10%;
+background-image: url('./SB036.JPG');
 }
 
 
@@ -132,3 +134,4 @@ position: fixed;
 right: 5%;
 
 }
+
