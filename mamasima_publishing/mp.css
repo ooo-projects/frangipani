@@ -52,16 +52,15 @@ filter: grayscale(100%);
 
 .title {
 -webkit-text-stroke: 1px ghostwhite;
-color: black;
+color: blue;
 letter-spacing: 2px;
-max-width: 570px;
+-webkit-text-stroke: 1px ghostwhite;
 overflow: scroll;
 }
 
 
 .me {
 -webkit-text-stroke: 1px ghostwhite;
-color: black;
 letter-spacing: 2px;
 max-width: 570px;
 overflow: scroll;
@@ -75,10 +74,10 @@ color: blue;
 
 background-color: gainsboro;
 width: 650px;
-height: 650px;
+height: 90%;
 position: fixed;
-right: 2%;
-top: 10%;
+right: 0%;
+bottom: 0%;
 -webkit-text-stroke: none;
 color: black;
 padding: 1.5%;
@@ -89,6 +88,7 @@ border-left: 1px solid red;
 border-right: 1px solid blue;
 border-bottom: 1px solid yellow;
 overflow: scroll;
+
 }
 
 
