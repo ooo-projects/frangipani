@@ -53,6 +53,6 @@ left: 50%;
 .drawing {
 position: fixed;
 left: 10%;
-border: 1px solid black;
+border: 1px solid red;
 
 }
