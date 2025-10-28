@@ -1,11 +1,17 @@
+/*
 
+
+mamsima beige: #d3b998
+
+
+*/
 
 body {
 
 text-align: right;
 top: 0;
 left: 0;
-background-color: #d3b998;
+background-color: white;
 font-size: 20px;
 font-family: serif;
 }
@@ -30,5 +36,23 @@ text-decoration: none;
 span:hover {
 cursor: pointer;
 
+
+}
+
+.logo {
+
+
+position: fixed;
+top 50%;
+left: 50%;
+
+
+
+}
+
+.drawing {
+position: fixed;
+left: 10%;
+border: 1px solid black;
 
 }
