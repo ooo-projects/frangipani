@@ -49,18 +49,3 @@ left: 45%;
 
 
 }
-
-.drawing {
-position: fixed;
-left: 9%;
-bottom: 10%;
-border: 1.5px dotted lime;
-
-}
-
-
-.drawing:hover {
-border: 1.5px dotted blue;
-
-
-}
