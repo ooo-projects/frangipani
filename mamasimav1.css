@@ -14,6 +14,8 @@ left: 0;
 background-color: white;
 font-size: 20px;
 font-family: serif;
+background-image: url('./flatfile.JPG');
+background-size: cover;
 }
 
 @font-face {
