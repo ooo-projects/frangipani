@@ -28,8 +28,8 @@ filter: saturate(111%);
 
 
 .card1:hover {
-filter: grayscale(100%);
-
+filter: hue-rotate(180deg);
+border: 1.25px dashed red;
 
 }
 
@@ -45,8 +45,8 @@ filter: saturate(111%);
 
 
 .card2:hover {
-filter: grayscale(100%);
-
+filter: hue-rotate(180deg);
+border: 1.25px dashed red;
 
 }
 
@@ -69,7 +69,7 @@ overflow: scroll;
 font-size: 24px;
 position: fixed;
 right: 0%;
-top: 30%;
+top: 28%;
 transform: rotate(-2deg);
 }
 
