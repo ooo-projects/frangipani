@@ -7,7 +7,7 @@ mamsima beige: #d3b998
 */
 
 body {
--webkit-backdrop-filter: blur(20px);
+
 text-shadow: 0px 0px 8px silver;
 text-align: center;
 top: 0;
@@ -54,3 +54,12 @@ left: 45%;
 
 }
 
+
+.write {
+color: black; 
+font-size: 50px; 
+font-family: arial narrow;
+
+
+
+}
