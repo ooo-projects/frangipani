@@ -35,9 +35,9 @@ cursor: pointer;
 }
 
 .write {
-color: blue; 
+color: black; 
 font-size: 50px; 
 font-family: monospace;
-text-shadow: 0px 0px 3px blue;
+text-shadow: 0px 0px 3px deeppink;
 font-size: 20px;
 }
