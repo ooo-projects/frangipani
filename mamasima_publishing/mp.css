@@ -52,7 +52,7 @@ border: 1.25px dashed red;
 
 .title {
 -webkit-text-stroke: 1px ghostwhite;
-color: lawngreen;
+color: olive;
 letter-spacing: 2px;
 -webkit-text-stroke: 1px ghostwhite;
 overflow: scroll;
@@ -62,7 +62,7 @@ font-size: 24px;
 
 .produces {
 -webkit-text-stroke: 1px ghostwhite;
-color: hotpink;
+color: indigo;
 letter-spacing: 2px;
 -webkit-text-stroke: 1px ghostwhite;
 overflow: scroll;
@@ -158,7 +158,7 @@ position: fixed;
 top: 10%;
 right: 30%;
 -webkit-text-stroke: 1px ghostwhite;
-color: darkslateblue;
+color: indigo;
 letter-spacing: 2px;
 -webkit-text-stroke: 1px ghostwhite;
 
