@@ -4,6 +4,11 @@
           box-sizing: border-box;
 }
 
+html {
+cursor: pointer;
+height: 100%;
+}
+
 body {
 
 top: 0;
@@ -13,6 +18,7 @@ font-family: serif;
 text-align: left;
 padding: 1%;
 background-color: black;
+
 }
 
 
@@ -88,7 +94,7 @@ font-size: 26px;
 
 .whitebox {
 
-background-color: firebrick;
+background-color: olive;
 width: 670px;
 height: 60%;
 position: fixed;
@@ -100,10 +106,7 @@ color: black;
 padding: 1.5%;
 font-size: 15px;
 font-style: italic;
-border-top: 1px dashed cyan;
-border-left: 1px solid pink;
-border-right: 1px dashed chartreuse;
-border-bottom: 1px solid yellow;
+border: 4px pink groove;
 overflow: scroll;
 
 }
@@ -162,3 +165,4 @@ color: brown;
 letter-spacing: 2px;
 font-size: 66px;
 }
+
