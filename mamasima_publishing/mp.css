@@ -52,17 +52,17 @@ border: 1.25px dashed red;
 
 .title {
 -webkit-text-stroke: 1px ghostwhite;
-color: olive;
+color: cornflowerblue;
 letter-spacing: 2px;
 -webkit-text-stroke: 1px ghostwhite;
 overflow: scroll;
-font-size: 24px;
+font-size: 33px;
 }
 
 
 .produces {
 -webkit-text-stroke: 1px ghostwhite;
-color: indigo;
+color: goldenrod;
 letter-spacing: 2px;
 -webkit-text-stroke: 1px ghostwhite;
 overflow: scroll;
@@ -82,7 +82,7 @@ overflow: scroll;
 position: fixed;
 bottom: 40%;
 transform: rotate(2deg);
-color: blue;
+color: cornflowerblue;
 font-size: 26px;
 }
 
@@ -160,6 +160,5 @@ right: 30%;
 -webkit-text-stroke: 1px blue;
 color: brown;
 letter-spacing: 2px;
-
+font-size: 66px;
 }
-
