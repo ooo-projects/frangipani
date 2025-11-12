@@ -102,11 +102,11 @@ right: 0%;
 bottom: 0%;
 top: 40%;
 -webkit-text-stroke: none;
-color: black;
+color: gainsboro;
 padding: 1.5%;
 font-size: 15px;
 font-style: italic;
-border: 4px darkcyan ridge;
+border: 4px olive ridge;
 overflow: scroll;
 
 }
