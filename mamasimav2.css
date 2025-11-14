@@ -1,0 +1,218 @@
+/*
+
+
+mamsima beige: #d3b998
+
+
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+text-shadow: 0px 0px 1px white;
+text-align: left;
+top: 0;
+left: 0;
+background-color: black;
+font-size: 20px;
+font-family: arial narrow, sans-serif;
+background-image: url('./flatfile.jpeg');
+background-size: 60%;
+color: white;
+}
+
+@font-face {
+  font-family: AntonRegular; /* set name */
+  src: url('./Anton/Anton-Regular.ttf'); /* url of the font */
+}
+
+
+div:hover {
+
+transform: rotate(-5deg);
+
+}
+
+img:hover {
+
+transform: rotate(5deg);
+
+}
+
+.periodical {
+position: fixed;
+transform: rotate(-5deg);
+text-align: justify;
+top: 25%;
+right: 39%;
+width: 339px;
+border: 1px dashed black;
+padding: 1%;
+border-radius: 20px;
+color: black;
+background-color: lawngreen;
+}
+
+
+.issue {
+position: fixed;
+right: 60%;
+bottom: 17%;
+width: 200px;
+border: 2px solid black;
+padding: 1%;
+background-color: cyan;
+color: black;
+
+}
+
+
+
+.issueimage {
+position: fixed;
+top: 49%;
+left: 51%;
+box-shadow: 0px 0px 10px blue;
+}
+
+
+.mar {
+
+position: fixed;
+bottom: 1.5%;
+right: 0%;
+color: yellow;
+-webkit-text-stroke: 1px black;
+background-color: #001de0;
+font-family: arial narrow, sans-serif;
+letter-spacing: 3px;
+font-size: 16px;
+font-weight: bold;
+border-top: 1px dashed yellow;
+border-bottom: 1px dashed yellow;
+
+}
+
+
+.mp {
+position: fixed;
+text-align: justify;
+right: 9%;
+bottom: 13%;
+width: 200px;
+border: 4px ridge blue;
+padding: 1%;
+font-size: 13px;
+font-family: serif;
+color: blue;
+text-shadow: none;
+}
+
+
+
+.logo {
+
+position: fixed;
+left: 5%;
+bottom: 5%;
+
+}
+
+
+.pens {
+position: fixed;
+right: 20%;
+top: 40%;
+}
+
+
+
+.digisum {
+
+color: black;
+width: 88px;
+position: fixed;
+top: 17%;
+right: 11%;
+font-family: arial narrow, sans-serif;
+background-color: yellow;
+text-shadow: 0px 0px 3px white;
+font-size: 13px;
+border-radius: 10px;
+padding: 5px;
+line-height: 110%;
+font-size: 16px;
+box-shadow: 2px 2px 4px gray;
+}
+
+
+.title {
+
+position: fixed;
+transform: rotate(5deg);
+
+}
+
+@keyframes color {
+
+0% {color: fuchsia;}
+20% {color: blue;}
+40% {color: green;}
+80% {color: orange;}
+100% {color: red;}
+
+
+}
+
+
+.mag {
+
+color: black;
+animation-name: color;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+position: fixed;
+left: 51%;
+top: 5%;
+font-size: 85px;
+}
+
+
+
+.flo {
+
+position: fixed;
+left: 60%;
+top: 25%;
+color: deeppink;
+}
+
+
+
+.bookmarks {
+
+position: fixed;
+bottom: 44%;
+left: 5%;
+}
+
+
+
+.stock {
+
+cursor: pointer;
+
+}
+
+
+.stock:hover {
+
+transform: rotate(0deg);
+
+}
