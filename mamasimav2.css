@@ -60,7 +60,7 @@ background-color: lawngreen;
 
 .issue {
 position: fixed;
-left: 15%;
+left: 18%;
 bottom: 17%;
 width: 200px;
 border: 2px solid black;
@@ -101,8 +101,8 @@ border-bottom: 1px dashed yellow;
 .mp {
 position: fixed;
 text-align: justify;
-right: 9%;
-bottom: 13%;
+right: 4%;
+bottom: 11%;
 width: 200px;
 border: 4px ridge #fc5b05;
 padding: 1%;
@@ -110,7 +110,7 @@ font-size: 13px;
 font-family: serif;
 color: #fc5b05;
 text-shadow: none;
-background-color: rgba(252, 99, 5, 0.05);
+background-color: rgba(248, 252, 141, 0.7);
 }
 
 .mp:hover {
@@ -134,7 +134,7 @@ bottom: 5%;
 .pens {
 position: fixed;
 right: 20%;
-top: 40%;
+top: 33%;
 }
 
 
