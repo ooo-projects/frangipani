@@ -17,10 +17,9 @@ text-shadow: 0px 0px 1px white;
 text-align: left;
 top: 0;
 left: 0;
-background-color: silver;
+background-color: #001de0;
 font-size: 20px;
 font-family: arial narrow, sans-serif;
-background-image: url('./flatfile.jpeg');
 background-size: 60%;
 color: white;
 }
@@ -240,9 +239,23 @@ color: yellow;
 background-color: #001de0;
 font-family: arial narrow, sans-serif;
 letter-spacing: 3px;
-font-size: 16px;
+font-size: 33px;
 font-weight: bold;
 border-top: 1px dashed yellow;
 border-bottom: 1px dashed yellow;
 
+}
+
+
+.bulletin {
+background-color: black;
+-webkit-text-stroke: 1px white;
+color: black;
+width: 300px;
+position: fixed;
+bottom: 10%;
+left: 50%;
+border: 2px dashed antiquewhite;
+padding: 2%;
+display: none;
 }
