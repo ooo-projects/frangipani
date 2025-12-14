@@ -168,11 +168,11 @@ transform: rotate(5deg);
 
 @keyframes color {
 
-0% {color: fuchsia;}
-20% {color: blue;}
-40% {color: green;}
+0% {color: mistyrose;}
+20% {color: cornflowerblue;}
+40% {color: lawngreen;}
 80% {color: orange;}
-100% {color: red;}
+100% {color: hotpink;}
 
 
 }
