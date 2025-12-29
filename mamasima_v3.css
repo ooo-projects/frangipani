@@ -1,0 +1,66 @@
+/*
+
+
+mamsima beige: #d3b998
+
+
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+cursor: pointer;
+height: 100%;
+}
+
+body {
+color: yellow;
+-webkit-text-stroke: 1px black;
+background-color: maroon;
+border-top: 1px dashed yellow;
+
+font-size: 22px;
+font-family: arial narrow, sans-serif;
+letter-spacing: 3px;
+}
+
+
+.yellowlogo {
+transform: scale(5%);
+position: fixed;
+left: 3%;
+
+}
+
+
+.carving {
+position: fixed;
+transform: scale(50%);
+bottom: -11%;
+right: 11%;
+}
+
+.carving:hover {
+z-index: -1;
+
+}
+
+.head {
+position: fixed;
+left: 1%;
+bottom: 1%;
+transform: scaleX(-1);
+}
+
+
+.courtesan {
+position: fixed;
+left: 40%;
+bottom: 1%;
+transform: scaleX(-1);
+
+}
