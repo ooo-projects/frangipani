@@ -61,5 +61,5 @@ position: fixed;
 left: 43%;
 bottom: 1%;
 transform: scaleX(-1);
-
+filter: sepia(100%);
 }
