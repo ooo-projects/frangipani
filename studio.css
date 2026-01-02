@@ -38,6 +38,11 @@ list-style-type: none;
 
 }
 
+li {
+
+padding-bottom: 3px;
+}
+
 mark {
 
 background-color: black;
@@ -47,7 +52,7 @@ color: yellow;
 
 .faq {
 
-font-size: 18.5px;
+font-size: 18px;
 color: beige;
 
 }
