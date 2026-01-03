@@ -101,3 +101,10 @@ border-radius: 2px;
 
 font-weight: normal;
 }
+
+
+.candle {
+position: absolute;
+filter: grayscale(0%);
+right: 29%;
+}
