@@ -128,30 +128,35 @@ color: white;
 
 table {
 
-font-size: 16px;
-color: lightcyan;
--webkit-text-stroke: 0px;
+font-size: 33px;
+color: transparent;
+-webkit-text-stroke: 1px lightcyan;
 width: 100%;
 text-align: right;
 position: absolute;
 bottom: 0%;
 }
 
-tr {
-border-bottom: 1px solid lightcyan;
+
 
 th {
-
-font-size: 22px;
+color: lightcyan;
+-webkit-text-stroke: 0px lightcyan;
+font-size: 35px;
 font-weight: normal;
 }
 
 }
 
-td:hover {
+td {
+font-size: 33px;
 
-color: white;
+}
 
+tr:hover {
+
+color: rgba(176, 196, 27, 1);
+-webkit-text-stroke: 0px;
 }
 
 .mobile_home {
