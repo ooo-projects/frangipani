@@ -17,11 +17,9 @@ body {
 margin: 0;
 height: 100%;
 width: 100%;
-color: rgba(176, 196, 27, 0);
--webkit-text-stroke: 1px rgba(176, 196, 27, 0.44);
+-webkit-text-stroke: 1px lightcyan;
 font-family: sans-serif;
 font-weight: lighter;
-
 font-size: 111px;
  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -44,9 +42,9 @@ color: transparent;
 font-weight: lighter;
 color: transparent;
 -webkit-text-stroke: 1px lightcyan;
-text-shadow: 55px 55px 5px rgba(173, 216, 230, 0.3);
+text-shadow: 55px 55px 5px rgba(255, 255, 255, 0.5);
 position: fixed;
-right: 9%;
+right: 11%;
 font-family: sans-serif;
 }
 
@@ -61,31 +59,29 @@ padding-top: 1%;
 
 a.about:hover {
 
-color: #cce0f9;
-
+color: white;
+-webkit-text-stroke: 0px;
 }
 
 a.work:hover {
 
 color: rgba(176, 196, 27, 1);
-
+-webkit-text-stroke: 0px;
 }
 
 .graph1 {
 
-transform: scale(25%);
 position: fixed;
-top: -30%;
-left: 10%;
+bottom: 10%;
+right: 13%;
 opacity: 20%;
 }
 
 .graph2 {
 
-transform: scale(25%);
 position: fixed;
-top: -30%;
-left: -10%;
+bottom: 10%;
+left: 13%;
 opacity: 20%;
 }
 
@@ -94,7 +90,7 @@ opacity: 20%;
 
 position: fixed;
 top: 5%;
-right: 5%;
+right: 8%;
 opacity: 20%;
 
 }
@@ -104,7 +100,7 @@ opacity: 20%;
 
 position: fixed;
 top: 5%;
-left: 5%;
+left: 8%;
 opacity: 20%;
 
 
