@@ -127,6 +127,7 @@ color: white;
 
 
 table {
+display: none;
 font-size: 16px;
 color: lightcyan;
 -webkit-text-stroke: 0px;
@@ -150,5 +151,11 @@ font-weight: normal;
 td:hover {
 
 color: white;
+
+}
+
+.mobile_home {
+display: none;
+
 
 }
