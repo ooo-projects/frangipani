@@ -130,8 +130,9 @@ color: white;
 table {
 
 font-size: 33px;
+font-weight: normal;
 color: transparent;
--webkit-text-stroke: 1px lightcyan;
+-webkit-text-stroke: 1px white;
 width: 100%;
 text-align: right;
 position: absolute;
@@ -141,8 +142,8 @@ bottom: 0%;
 
 
 th {
-color: lightcyan;
--webkit-text-stroke: 0px lightcyan;
+color: white;
+-webkit-text-stroke: 0px white;
 font-size: 35px;
 font-weight: normal;
 }
