@@ -21,13 +21,29 @@ cursor: pointer;
 body.landing {
 background-image: url('./sitestudio_bg.png');
 background-size: cover;
-text-align: center;
+padding: 1%;
 width: 100%;
 color: fuchsia;
-margin-top: 20.5%;
 font-weight: bold;
 font-size: 55px;
 margin-left: 0;
+}
+
+.landing_title {
+position: absolute;
+top: 0%;
+
+}
+
+.enterbutton {
+
+background-color: transparent; 
+color: fuchsia; 
+font-family: Rounded; 
+padding: 5px; 
+font-size: 33px; 
+border-color: fuchsia;
+
 }
 
 
@@ -133,3 +149,5 @@ opacity: 50%;
 
 
 }
+
+
