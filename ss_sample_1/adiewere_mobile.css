@@ -37,7 +37,8 @@ width: 100%;
 a {
 
 cursor: crosshair;
-
+color: lavender;
+font-family: ArchivoBlack;
 }
 
 a:hover {
