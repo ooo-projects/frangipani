@@ -145,8 +145,12 @@ bottom: -60%;
 
 .bloom {
 
-
-
 border: 1px solid white;
+
+}
+
+.ah_mobile {
+
+display: none;
 
 }
