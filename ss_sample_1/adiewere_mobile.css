@@ -1,0 +1,164 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+
+height: 100%;
+width: 100%;
+
+}
+
+
+body {
+
+background-color: black;
+color: lavender;
+font-family: ArchivoBlack;
+height: 100%;
+width: 100%;
+}
+
+@font-face {
+  font-family: ArchivoBlack; /* set name */
+  src: url('./Archivo_Black/ArchivoBlack-Regular.ttf'); /* url of the font */
+}
+
+@font-face {
+  font-family: EBGaramond; /* set name */
+  src: url('./EB_Garamond/EBGaramond-VariableFont_wght.ttf'); /* url of the font */
+}
+
+
+a {
+
+cursor: crosshair;
+
+}
+
+a:hover {
+
+cursor: crosshair;
+
+}
+
+a:active {
+cursor: crosshair;
+
+}
+
+.title {
+text-shadow: 0px 0px 4px white;
+font-size: 20px;
+position: fixed;
+display: none;
+}
+
+
+.learn {
+position: absolute;
+font-family: EBGaramond;
+left: 66%;
+font-size: 17px;
+bottom: 10%;
+display: none;
+}
+
+.information {
+position: absolute;
+bottom: 0%;
+right: 44%;
+height: 100%;
+width: 35%;
+background-color: gainsboro;
+padding: 2%;
+color: #4c002d;
+font-family: sans-serif;
+font-size: 20px;
+font-style: italic;
+text-align: left;
+border: 3px ridge;
+overflow: scroll;
+display: none;
+}
+
+.information:hover {
+
+background-color: gainsboro;
+color: #4c002d;
+
+}
+
+
+.xmas {
+position: absolute;
+right: 0%;
+bottom: -100%;
+filter: grayscale(44%);
+display: none;
+}
+
+
+.building {
+position: absolute;
+bottom: -100%;
+right: 40%;
+filter: grayscale(100%);
+display: none;
+}
+
+.building:hover {
+z-index: -1;
+
+}
+
+
+.dinner {
+position: absolute;
+filter: grayscale(0%);
+right: 0%;
+top: -10%;
+transform: rotate(-5deg);
+display: none;
+}
+
+.bloom {
+display: none;
+border: 1px solid white;
+
+}
+
+
+.ah_mobile {
+display: block;
+
+
+}
+
+.title_mobile {
+text-shadow: 0px 0px 4px white;
+font-size: 30px;
+}
+
+
+.bookings_mobile {
+width: 200px;
+height: 200px;
+background-size: contain;
+background-image: url('./xmas2.JPG');
+background-color: gainsboro;
+border: 4px ridge gainsboro;
+filter: grayscale(100%);
+}
+
+
+.otherflower {
+position: fixed;
+filter: grayscale(10%);
+bottom: -11%;
+right: -22%;
+}
