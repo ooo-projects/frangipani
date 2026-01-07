@@ -164,10 +164,10 @@ transform: rotate(-6.5deg);
 
 
 .books {
-width: 500px;
+width: 100%;
 position: absolute;
 top: 11%;
-right: 5%;
+right: 0%;
 font-size: 26px;
 font-weight: normal;
 }
