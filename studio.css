@@ -24,7 +24,6 @@ background-size: cover;
 padding: 1%;
 width: 100%;
 color: fuchsia;
-
 font-weight: bold;
 font-size: 55px;
 margin-left: 0;
@@ -169,6 +168,6 @@ width: 500px;
 position: absolute;
 top: 11%;
 right: 5%;
-font-size: 23px;
+font-size: 26px;
 font-weight: normal;
 }
