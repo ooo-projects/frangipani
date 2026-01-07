@@ -24,6 +24,7 @@ background-size: cover;
 padding: 1%;
 width: 100%;
 color: fuchsia;
+
 font-weight: bold;
 font-size: 55px;
 margin-left: 0;
@@ -144,12 +145,30 @@ bottom: 3%;
 }
 
 
-.marquee_landing {
-position: absolute;
-top: 5%;
-opacity: 50%;
-
-
+.mamasima {
+position: fixed;
+right: 2%;
+bottom: 11%;
+width: 350px;
+height: 200px;
+color: fuchsia;
+border: 1px solid fuchsia;
+text-shadow: none;
+box-shadow: 0px 0px 22px fuchsia inset;
+border-radius: 50%;
+padding: 4%;
+font-size: 17px;
+font-weight: normal;
+text-align: justify;
+transform: rotate(-6.5deg);
 }
 
 
+.books {
+width: 500px;
+position: absolute;
+top: 10%;
+right: 5%;
+font-size: 23px;
+font-weight: normal;
+}
