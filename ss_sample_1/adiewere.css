@@ -19,7 +19,7 @@ body {
 background-color: lavender;
 color: #4c002d;
 font-family: ArchivoBlack;
-height: 190%;
+height: 100%;
 width: 100%;
 }
 
@@ -91,22 +91,40 @@ color: #4c002d;
 
 }
 
-.xmas {
+.out {
 position: absolute;
 right: 0%;
-bottom: -100%;
-filter: grayscale(44%);
+bottom: 0%;
+filter: grayscale(100%);
 
 }
 
 
-.building {
+.in {
 position: absolute;
-bottom: -100%;
+bottom: 0%;
 right: 40%;
 filter: grayscale(100%);
 
 }
+
+.window {
+position: absolute;
+filter: grayscale(100%);
+bottom: 51%;
+right: 40%;
+
+}
+
+
+.stairs {
+position: absolute;
+filter: grayscale(100%);
+bottom: 51%;
+right: 0%;
+
+}
+
 
 .building:hover {
 z-index: -1;
@@ -142,4 +160,3 @@ right: 7%;
 display: none;
 
 }
-
