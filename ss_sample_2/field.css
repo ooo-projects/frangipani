@@ -170,15 +170,17 @@ display: none;
 .back {
 position: fixed;
 left: 1%;
-color: white;
--webkit-text-stroke: 0px;
+top: 1%;
+color: transparent;
+-webkit-text-stroke: 1px white;
+
 font-family: sans-serif;
 font-size: 44px;
 }
 
 
 .back:hover {
-color: transparent;
--webkit-text-stroke: 1px white;
+color: white;
+
 
 }
