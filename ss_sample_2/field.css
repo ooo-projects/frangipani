@@ -59,6 +59,7 @@ color: lightcyan;
 padding-left: 1%;
 
 
+
 }
 
 a.about:hover {
@@ -115,7 +116,7 @@ opacity: 20%;
 position: fixed;
 text-align: justify;
 width: 30%;
-left: 30%;
+left: 33%;
 top: 40%;
 font-size: 22px;
 -webkit-text-stroke: lightcyan;
@@ -163,5 +164,21 @@ color: rgba(176, 196, 27, 1);
 .mobile_home {
 display: none;
 
+
+}
+
+.back {
+position: fixed;
+left: 1%;
+color: white;
+-webkit-text-stroke: 0px;
+font-family: sans-serif;
+font-size: 44px;
+}
+
+
+.back:hover {
+color: transparent;
+-webkit-text-stroke: 1px white;
 
 }
