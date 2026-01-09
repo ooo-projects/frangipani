@@ -1,47 +1,154 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Oritsemughone Ogbemi</title>
+<link href = './landing_2026.css' rel = 'stylesheet'>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script async src="https://tally.so/widgets/embed.js"></script>
-<title></title>
-<link href = './mamasima_v3.css' rel = "stylesheet">
-<link rel="stylesheet" media="screen and (orientation: portrait)" href="mamasima2_mobile.css">
-<link rel="icon" type="image/x-icon" href="./mamasima.ico">
 
 </head>
-<body><div class = "txt">
-Mamasima Magazine
+<body>
+
+<p>
+<span>Oritsemughone Ogbemi is a writer-artist living & working in Lagos, Nigeria.</span></p>
+<p><span>She designs and edits the print literary magazine <a href ="https://www.mamasima.site/"><i>Mamasima</i></a> and makes websites. Her writing has been featured in Wreath, <a href = "https://tragickal.com/category/oritsemughone-ogbemi/">Tragickal</a>, Annual Report, and miniskirt. Right now, she is composing a collection of short stories. </span></p>
+<p><span>Browse some of her <a href = "./tsem_june.html">online work &#x2661;&#x2661;&#x2661;&#x2661;</a></span></p>
+
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span></p>
+
+
+
+
+<div class = "buttons">
+<br><br><br><br><br><br><br><br>
+<br><br><br><br>
+<br><br>
+<button onclick="backGrounda()"> yellow </button> <button onclick="backGroundb()"> cream </button> <button onclick="backGroundc()"> white </button> <button onclick="backGroundd()"> beige </button> <button onclick="backGrounde()"> blue </button>
+<!--
 <br>
-A new print periodical in Lagos featuring original: 
-<br>
-&#x26AF; Essay
-<br>
-&#x26AF; Collage
-<br>
-&#x26AF; Fiction
-<br>
-&#x26AF; Poetry
-<br>
-&#x26AF; Illustration
-<br>
-Our last sale event for issue one (essay, poetry, photography, illustration) was on December 22nd, 2025. Future pop-ups will be announced on this website, under 'Bulletin.' 
-<br>
-<br>
-Bulletin: We are now working on an expanded digital version of our first issue. Bookmark this website & check back for updates. Thank you.
-<br>
-&#x2764;
-</div>
-<!--You can now purchase the expanded digital version of our first issue for N5,500 <u style = "text-decoration-style: wavy;">here.</u>
+<button onclick="fontStylea()"> light sans-serif </button> <button onclick="fontStyleb()"> cursive </button>
 -->
+<br>
+<button onclick="penColora()"> gray black </button> <button onclick="penColorb()"> light blue </button> <button onclick="penColorc()"> true blue </button> <button onclick="penColord()"> blue purple </button> 
+<br><br>
+<br><br>
+</div>
 
-<a href = "./mamasima_publishing/mp.html" style = "cursor: grab;"><img src = "./mamasima_logo_yellow.png" class = "yellowlogo"></a>
-<img src = "./okega.png" class = "carving" height = "550" width = "109">
-<img src = "./head.png" class = "head" height = "350" width = "203">
-<img src = "./head2.png" class = "courtesan" height = "250" width = "174">
 
 
-<div class = "mobile"></i>Mamasima</i> is a new literary Magazine in the Lagos metropolitan biome. We publish essay, short fiction, poetry, collage, photography, illustration, and more. <span style = "background-color: yellow; color: deeppink;">Bulletin: We are now working on an expanded digital version of our first issue. Bookmark this website & check back for updates. Thank you.</span> Write us: P.O. Box 76013 Victoria Island, Lagos &#x2737; Email: mamasimamag@proton.me </div>
+
+
+
+
+<script>
+var yellow = "#EEE8AA";
+var cream = "#FFFAF0";
+var white = "#F8F8FF";
+var beige = "#F5F5DC";
+var blue = "#c3dde0";
+var sansserif = "sans-serif";
+var cursive = "cursive";
+var lightblue = "steelblue";
+var trueblue = "#0000FF";
+var bluepurple = "#20018e";
+var black = "#282828";
+
+var style = document.createElement("style");
+
+function backGrounda() {
+
+style.appendChild(document.createTextNode("body{background-color:" + yellow + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function backGroundb() {
+
+style.appendChild(document.createTextNode("body{background-color:" + cream + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function backGroundc() {
+
+style.appendChild(document.createTextNode("body{background-color:" + white + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function backGroundd() {
+
+style.appendChild(document.createTextNode("body{background-color:" + beige + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function backGrounde() {
+
+style.appendChild(document.createTextNode("body{background-color:" + blue + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function fontStylea() {
+
+style.appendChild(document.createTextNode("body{font-family:" + sansserif + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function fontStyleb() {
+
+style.appendChild(document.createTextNode("body{font-family:" + cursive + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function penColora() {
+
+style.appendChild(document.createTextNode("body{color:" + black + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function penColorb() {
+
+style.appendChild(document.createTextNode("body{color:" + lightblue + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function penColorc() {
+
+style.appendChild(document.createTextNode("body{color:" + trueblue + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+function penColord() {
+
+style.appendChild(document.createTextNode("body{color:" + bluepurple + ";}"));
+document.head.appendChild(style);
+
+
+}
+
+</script>
 </body>
 </html>
