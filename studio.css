@@ -103,12 +103,12 @@ font-size: 16.5px;
 
 width: 25%;
 height: 100%;
-border-left: 0.5px solid fuchsia;
+border-left: 0.5px dashed beige;
 position: absolute;
 left: 75%;
 top: 0%;
 background-color: black;
-color: fuchsia;
+color: yellow;
 padding-top: 0.5%;
 
 }
