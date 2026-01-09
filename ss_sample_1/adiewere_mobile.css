@@ -16,11 +16,14 @@ width: 100%;
 
 body {
 
-background-color: black;
-color: lavender;
+background-color: ghostwhite;
+background-size: cover;
+background-image: url('./window.jpg');
+color: black;
 font-family: ArchivoBlack;
 height: 100%;
 width: 100%;
+overflow: scroll;
 }
 
 @font-face {
@@ -96,20 +99,37 @@ color: #4c002d;
 }
 
 
-.xmas {
+.out {
 position: absolute;
 right: 0%;
-bottom: -100%;
-filter: grayscale(44%);
+bottom: 0%;
+filter: grayscale(100%);
 display: none;
 }
 
 
-.building {
+.in {
 position: absolute;
-bottom: -100%;
+bottom: 0%;
 right: 40%;
 filter: grayscale(100%);
+display: none;
+}
+
+.window {
+position: absolute;
+filter: grayscale(100%);
+bottom: 51%;
+right: 40%;
+display: none;
+}
+
+
+.stairs {
+position: absolute;
+filter: grayscale(100%);
+bottom: 51%;
+right: 0%;
 display: none;
 }
 
@@ -142,15 +162,12 @@ display: block;
 }
 
 .title_mobile {
-text-shadow: 0px 0px 4px white;
+-webkit-text-stroke: 1.5px white;
 font-size: 30px;
-}
-
-.otherflower {
-position: fixed;
-filter: grayscale(10%);
-bottom: -11%;
-right: -22%;
+position: absolute;
+bottom: 6.6%;
+width: 90%;
+overflow-wrap: break-word;
 }
 
 
@@ -160,5 +177,13 @@ display: none;
 position: absolute;
 bottom: 22%;
 right: 7%;
+}
+
+
+
+.ig_mobile {
+
+filter: invert(0%);
+
 
 }
