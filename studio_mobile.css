@@ -13,13 +13,13 @@ Static green: #1e2d14;
 }
 
 body {
-background-image: none;
+background-image: linear-gradient(to bottom, beige, #1e2d14);
 border-left: 1px dotted beige;
 padding: 1%;
 height: 100%;
-background-color: #1e2d14;
+background-color: beige;
 font-family: Rounded;
-color: white;
+color: #1e2d14;
 width: 90%;
 font-size: 22px;
 cursor: pointer;
@@ -73,7 +73,7 @@ border: 2px solid #1e2d14;
 }
 
 a {
-
+color: chartreuse;
 text-decoration: none;
 }
 
@@ -108,14 +108,14 @@ color: yellow;
 .faq {
 
 font-size: 18px;
-color: beige;
+color: #1e2d14;
 
 }
 
 
 .answer {
 
-color: fuchsia;
+color: #1e2d14;
 font-size: 16.5px;
 }
 
@@ -128,23 +128,23 @@ position: relative;
 left: 0%;
 top: 0%;
 background-color: transparent;
-color: beige;
+color: white;
 padding-top: 0.5%;
-
+color: transparent;
 }
 
 
 .package {
 width: 80%;
 height: 200px;
-background-color: silver;
+background-color: honeydew;
 position: relative;
 left: 10%;
-color: blue;
+color: #1e2d14;
 padding: 3%;
 font-family: sans-serif;
 font-weight: lighter;
-border: 4px ridge gainsboro;
+border: 4px ridge honeydew;
 font-size: 16px;
 border-radius: 2px;
 
