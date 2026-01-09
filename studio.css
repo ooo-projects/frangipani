@@ -88,7 +88,7 @@ color: yellow;
 .faq {
 
 font-size: 18px;
-color: fuchsia;
+color: beige;
 
 }
 
@@ -103,12 +103,12 @@ font-size: 16.5px;
 
 width: 25%;
 height: 100%;
-border-left: 0.5px double beige;
+border-left: 0.5px dashed beige;
 position: absolute;
 left: 75%;
 top: 0%;
 background-color: black;
-color: yellow;
+color: beige;
 padding-top: 0.5%;
 
 }
