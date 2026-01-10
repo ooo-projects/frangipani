@@ -14,7 +14,7 @@ Static green: #1e2d14;
 
 body {
 background-image: linear-gradient(to bottom, beige, #1e2d14);
-border-left: 1px dotted beige;
+
 padding: 1%;
 height: 100%;
 background-color: beige;
@@ -35,6 +35,12 @@ margin-top: 20.5%;
 font-weight: bold;
 font-size: 55px;
 margin-left: 0;
+}
+
+body.samplelist {
+background-image: none;
+background-color: #1e2d14;
+color: beige;
 }
 
 .landing_title {
@@ -78,7 +84,7 @@ text-decoration: none;
 }
 
 .ss_title {
-
+color: #1e2d14;
 font-size: 26px;
 }
 
