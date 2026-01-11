@@ -132,7 +132,7 @@ font-weight: lighter;
 border: 4px ridge gainsboro;
 font-size: 16px;
 border-radius: 2px;
-
+overflow: scroll;
 }
 
 
