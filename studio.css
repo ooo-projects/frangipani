@@ -86,8 +86,8 @@ color: yellow;
 }
 
 .ss_title {
-color: yellowgreen;
 
+font-size: 20px;
 }
 
 .faq {
@@ -115,7 +115,7 @@ top: 0%;
 background-color: black;
 color: beige;
 padding-top: 0.5%;
-
+font-size: 20px;
 }
 
 
