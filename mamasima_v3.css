@@ -77,6 +77,13 @@ transform: scaleX(-1);
 filter: sepia(100%);
 }
 
+.penpot {
+
+position: absolute;
+bottom: 11%;
+left: 11%;
+}
+
 .mobile {
 display: none;
 position: fixed;
