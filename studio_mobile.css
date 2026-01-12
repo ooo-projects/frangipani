@@ -32,7 +32,7 @@ background-size: contain;
 text-align: left;
 width: 100%;
 margin-top: 20.5%;
-font-weight: bold;
+font-weight: normal;
 font-size: 55px;
 margin-left: 0;
 }
@@ -52,6 +52,7 @@ color: transparent;
 -webkit-text-stroke: 1px #1e2d14;
 text-shadow: 0px 0px 4px #1e2d14;
 font-family: Rounded;
+font-weight: bold;
 }
 
 
@@ -59,7 +60,7 @@ font-family: Rounded;
 padding: 3%;
 font-size: 22px;
 color: #1e2d14;
-font-family: Rounded;
+font-family: monospace;
 }
 
 .enterbutton {
@@ -79,7 +80,7 @@ border: 2px solid #1e2d14;
 }
 
 a {
-color: white;
+color: #1e2d14;
 text-decoration: none;
 }
 
@@ -112,17 +113,18 @@ color: yellow;
 }
 
 .faq {
-
-font-size: 18px;
+font-weight: bold;
+font-size: 21px;
 color: #1e2d14;
-
+font-family: monospace;
 }
 
 
 .answer {
-
+font-weight: normal;
 color: #1e2d14;
 font-size: 16.5px;
+font-family: Rounded;
 }
 
 
