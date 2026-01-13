@@ -50,7 +50,7 @@ top: 11%;
 font-size: 55px;
 color: transparent;
 -webkit-text-stroke: 1px #1e2d14;
-text-shadow: 0px 0px 4px #1e2d14;
+
 font-family: Rounded;
 font-weight: bold;
 }
@@ -193,6 +193,19 @@ display: none;
 
 }
 
+@keyframes bounce {
+  0%, 100% {
+    top: 0vh;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    top: 70vh;
+    animation-timing-function: ease-out;
+  }
+}
+
+
 
 .first_oval {
 height: 150px;
@@ -206,9 +219,10 @@ box-shadow: inset 0px 0px 25px #1e2d14;
 color: #1e2d14;
 border-radius: 50%;
 z-index: -1;
+animation: bounce 2.5s infinite;
 }
 
-
+/*
 .second_oval {
 height: 150px;
 width: 150px;
@@ -217,12 +231,14 @@ position: absolute;
 top: 5%;
 left: 22%;
 background-color: transparent;
-box-shadow: inset 0px 0px 25px #1e2d14;
+box-shadow: inset 0px 0px 25px fuchsia;
 color: #1e2d14;
 border-radius: 50%;
 z-index: -1;
+animation: bounce 4s infinite;
 }
 
+*/
 
 .third_oval {
 height: 150px;
@@ -236,7 +252,7 @@ box-shadow: inset 0px 0px 25px #1e2d14;
 color: #1e2d14;
 border-radius: 50%;
 z-index: -1;
+animation: bounce 3.5s infinite;
 }
-
 
 
