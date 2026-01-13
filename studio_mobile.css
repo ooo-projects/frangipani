@@ -60,7 +60,7 @@ font-weight: bold;
 padding: 3%;
 font-size: 30px;
 color: #1e2d14;
-font-family: monospace;
+font-family: Rounded;
 }
 
 .enterbutton {
@@ -192,5 +192,51 @@ display: none;
 display: none;
 
 }
+
+
+.first_oval {
+height: 150px;
+width: 150px;
+display: block;
+position: absolute;
+bottom: 5%;
+right: 15%;
+background-color: transparent;
+box-shadow: inset 0px 0px 25px #1e2d14;
+color: #1e2d14;
+border-radius: 50%;
+z-index: -1;
+}
+
+
+.second_oval {
+height: 150px;
+width: 150px;
+display: block;
+position: absolute;
+top: 5%;
+left: 22%;
+background-color: transparent;
+box-shadow: inset 0px 0px 25px #1e2d14;
+color: #1e2d14;
+border-radius: 50%;
+z-index: -1;
+}
+
+
+.third_oval {
+height: 150px;
+width: 150px;
+display: block;
+position: absolute;
+top: 29%;
+left: 50%;
+background-color: transparent;
+box-shadow: inset 0px 0px 25px #1e2d14;
+color: #1e2d14;
+border-radius: 50%;
+z-index: -1;
+}
+
 
 
