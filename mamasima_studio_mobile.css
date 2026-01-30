@@ -1,0 +1,111 @@
+/*
+
+
+mamasima beige: #d3b998;
+mamasima brown: #913200;
+mamasima mahogany: #5b1500;
+mamasima light brown: #774317;
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+cursor: pointer;
+height: 100%;
+}
+
+body {
+color: yellow;
+-webkit-text-stroke: 1px black;
+background-color: #5b1500;
+border-top: 1px dashed yellow;
+border-bottom: 1px dashed yellow;
+font-size: 22px;
+font-family: arial narrow, sans-serif;
+letter-spacing: 3px;
+}
+
+body.studiolanding {
+
+background-color: #1e2d14;
+color: yellow;
+font-size: 33px;
+}
+
+a {
+color: #c65b5b;
+-webkit-text-stroke: 1px black;
+}
+
+.yellowlogo {
+transform: scale(5%);
+position: fixed;
+left: 3%;
+
+}
+
+
+.carving {
+position: fixed;
+bottom: -1%;
+left: 43%;
+}
+
+.carving:hover {
+z-index: -1;
+
+}
+
+.head {
+position: fixed;
+left: 0%;
+bottom: 0%;
+transform: scaleX(-1);
+
+}
+
+
+.courtesan {
+position: fixed;
+right: 11%;
+bottom: 0%;
+transform: scaleX(-1);
+filter: sepia(100%);
+}
+
+.penpot {
+display: none;
+position: absolute;
+bottom: 11%;
+left: 11%;
+}
+
+
+.laptop {
+
+display: none;
+position: absolute;
+right: 22%;
+bottom: 0%;
+}
+
+.mobile {
+display: none;
+position: fixed;
+top: 1.5%;
+right: 0%;
+color: yellow;
+-webkit-text-stroke: 1px black;
+background-color: #001de0;
+font-family: arial narrow, sans-serif;
+letter-spacing: 3px;
+font-size: 22px;
+font-weight: bold;
+border-top: 1px dashed yellow;
+border-bottom: 1px dashed yellow;
+
+}
