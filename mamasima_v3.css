@@ -84,6 +84,15 @@ bottom: 11%;
 left: 11%;
 }
 
+
+.laptop {
+
+
+position: absolute;
+right: 22%;
+bottom: 0%;
+}
+
 .mobile {
 display: none;
 position: fixed;
