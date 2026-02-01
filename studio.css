@@ -191,20 +191,30 @@ color: #1e2d14;
 
 
 .first_oval {
-
-display: none;
-
+height: 75px;
+width: 75px;
+display: block;
+position: absolute;
+bottom: 5%;
+right: 15%;
+background-color: yellow;
+color: #1e2d14;
+border-radius: 50%;
+z-index: -1;
+animation: bounce 2.5s infinite;
 }
 
 .second_oval {
-
-display: none;
-
+height: 75px;
+width: 75px;
+display: block;
+position: absolute;
+top: 29%;
+left: 50%;
+background-color: yellow;
+color: #1e2d14;
+border-radius: 50%;
+z-index: -1;
+animation: bounce 3.5s infinite;
 }
 
-
-.third_oval {
-
-display: none;
-
-}
