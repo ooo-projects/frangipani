@@ -49,7 +49,6 @@ top: 11%;
 font-size: 55px;
 color: transparent;
 -webkit-text-stroke: 1px #1e2d14;
-
 font-family: Rounded;
 font-weight: bold;
 }
@@ -222,25 +221,7 @@ z-index: -1;
 animation: bounce 2.5s infinite;
 }
 
-/*
 .second_oval {
-height: 150px;
-width: 150px;
-display: block;
-position: absolute;
-top: 5%;
-left: 22%;
-background-color: transparent;
-box-shadow: inset 0px 0px 25px fuchsia;
-color: #1e2d14;
-border-radius: 50%;
-z-index: -1;
-animation: bounce 4s infinite;
-}
-
-*/
-
-.third_oval {
 height: 150px;
 width: 150px;
 display: block;
