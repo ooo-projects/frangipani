@@ -30,7 +30,7 @@ font-size: 55px;
 margin-left: 0;
 text-align: left;
 cursor: url('./beige_circle.png') 50 50, auto !important;
-
+overflow-y: hidden;
 }
 
 .landing_title {
