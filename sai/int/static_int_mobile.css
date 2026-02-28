@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+
+}
+
+
+body {
+margin: 0;
+height: 100%;
+width: 100vw;
+padding: 0;
+background-color: white;
+color: dimgray;
+font-family: serif;
+letter-spacing: 1px;
+font-style: normal;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+u {
+text-decoration-style: dotted;
+
+}
+
+
+
+.nav {
+position: fixed;
+top: 2%;
+right: 2%;
+
+}
+
+nav a {
+color: dimgray;
+font-size: 22px;
+padding-top: 6px;
+padding-left: 6px;
+padding-right: 6px;
+padding-bottom: 4px;
+width: 200px;
+text-align: center;
+border: 0.5px solid dimgray;
+background-color: lightyellow;
+border-radius: 5px;
+font-family: courier new;
+font-weight: lighter;
+text-decoration: none;
+}
+
+nav a:hover {
+background-color: aliceblue
+
+
+}
+
+nav a:visited {
+
+color: dimgray;
+
+}
+
+
+/*
+
+
+IMPORTANT NOTE: 
+When the page becomes scrollable, remove 'bottom: 0' from the footer class.
+
+
+*/
+
+footer {
+
+position: sticky;
+left: 0;
+text-align: center;
+background-color: chartreuse;
+color: black;
+width: 100%;
+height: 5vh;
+padding: 0.7%;
+font-size: 16px;
+font-family: snell roundhand;
+letter-spacing: 0px;
+z-index: 0;
+}
+
+footer.about {
+bottom: 0;
+
+
+}
+
+
+.title-drawing {
+
+position: absolute;
+width: 111px;
+height: 16px;
+top: 9%;
+left: 50%;
+opacity: 70%;
+transform: rotate(4deg);
+}
+
+.dotted-line {
+position: absolute;
+top: 0%;
+display: block;
+z-index: -1;
+width: 1000px;
+height: 705px;
+
+}
+
+
+.subtitle {
+color: hotpink;
+position: absolute;
+font-family: sans-serif;
+font-weight: lighter;
+top: 10%;
+left: 4%;
+width: 200px;
+height: 150px;
+font-size: 22px;
+padding-top: 3px;
+}
+
+
+
+.littlestar {
+display: inline;
+height: 16px;
+width: 16px;
+opacity: 40%;
+
+}
+
+.hero-image {
+position: absolute;
+display: block;
+left: 51%;
+top: 15%;
+height: 100px;
+width: 75px;
+z-index: -1;
+}
+
+
+
+.interview-header {
+width: 100%;
+padding: 2%;
+margin-top: 250px;
+font-size: 3em;
+color: gainsboro;
+-webkit-text-stroke: 0.7px black;
+}
+
+.interview-text {
+font-family: sans-serif;
+font-weight: lighter;
+padding: 3%;
+color: black;
+font-size: 22px;
+letter-spacing: 0px;
+line-height: 23px;
+}
+
+
+
+
+
+/*
+
+colors: 
+oldlace #FDF5E6 navy (hover pink or gainsboro)
+darkseagreen navy (hover gainsboro)
+*/
