@@ -78,7 +78,7 @@ position: absolute;
 left: 0;
 bottom: 0;
 text-align: center;
-background-color: firebrick;
+background-color: aquamarine;
 color: white;
 width: 100%;
 height: 5vh;
@@ -105,6 +105,7 @@ top: 5%;
 left: 33%;
 opacity: 70%;
 transform: rotate(4deg);
+filter: hue-rotate(180deg);
 }
 
 .dotted-line {
