@@ -248,8 +248,8 @@ padding: 3%;
 
 .about-header {
 position: absolute;
-bottom: 61%;
-left: 3%;
+bottom: 70%;
+left: 5%;
 font-size: 111px;
 color: gainsboro;
 -webkit-text-stroke: 1px black;
@@ -257,7 +257,7 @@ color: gainsboro;
 }
 
 .about-footer {
-background-color: fuchsia;
+background-color: mistyrose;
 
 }
 
