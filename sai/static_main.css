@@ -11,7 +11,7 @@ body {
 margin: 0;
 padding: 10px;
 height: 100%;
-background-color: ghostwhite;
+background-color: whitesmoke;
 color: dimgray;
 font-family: serif;
 letter-spacing: 1px;
@@ -44,7 +44,7 @@ padding-bottom: 4px;
 width: 200px;
 text-align: center;
 border: 0.5px solid dimgray;
-background-color: lightyellow;
+background-color: whitesmoke;
 border-radius: 5px;
 font-family: courier new;
 font-weight: lighter;
@@ -52,7 +52,7 @@ text-decoration: none;
 }
 
 nav a:hover {
-background-color: aliceblue;
+background-color: peachpuff;
 
 
 }
