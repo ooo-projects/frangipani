@@ -6,6 +6,12 @@
 
 }
 
+html {
+cursor: url('./oddcursor.cur'), auto;
+
+
+}
+
 
 body {
 margin: 0;
