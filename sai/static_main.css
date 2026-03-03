@@ -12,6 +12,25 @@ cursor: url('./oddcursor.cur'), auto;
 
 }
 
+@keyframes gloop {
+
+  0% {
+    letter-spacing: 22px;
+  }
+
+  50% {
+
+    letter-spacing: 40px;
+  }
+
+  100% {
+
+    letter-spacing: 22px;
+  }
+
+
+}
+
 
 body {
 margin: 0;
@@ -25,6 +44,8 @@ font-style: normal;
 overflow-y: scroll;
 
 }
+
+
 
 u {
 text-decoration-style: dotted;
@@ -113,6 +134,17 @@ opacity: 70%;
 transform: rotate(4deg);
 filter: hue-rotate(180deg);
 }
+
+.static {
+letter-spacing: 40px; 
+
+animation-duration: 120s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: linear;
+width: 300px;
+}
+
 
 .dotted-line {
 position: fixed;
