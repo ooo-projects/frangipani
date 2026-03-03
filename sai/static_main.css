@@ -8,24 +8,25 @@
 
 html {
 cursor: url('./oddcursor.cur'), auto;
-
+width: 100%;
+height: 100%;
 
 }
 
 @keyframes gloop {
 
   0% {
-    letter-spacing: 22px;
+    letter-spacing: 40px;
   }
 
   50% {
 
-    letter-spacing: 40px;
+    letter-spacing: 22px;
   }
 
   100% {
 
-    letter-spacing: 22px;
+    letter-spacing: 40px;
   }
 
 
@@ -36,6 +37,7 @@ body {
 margin: 0;
 padding: 10px;
 height: 100%;
+
 background-color: whitesmoke;
 color: dimgray;
 font-family: serif;
@@ -137,12 +139,16 @@ filter: hue-rotate(180deg);
 
 .static {
 letter-spacing: 40px; 
+width: 300px;
+}
 
+.static:hover {
+animation-name: gloop;
 animation-duration: 120s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 animation-timing-function: linear;
-width: 300px;
+
 }
 
 
