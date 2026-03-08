@@ -22,6 +22,7 @@ color: #1e2d14;
 width: 90%;
 font-size: 22px;
 cursor: pointer;
+overflow-y: scroll;
 }
 
 body.landing {
