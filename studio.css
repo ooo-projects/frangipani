@@ -16,6 +16,7 @@ color: fuchsia;
 font-size: 22px;
 width: 700px;
 cursor: pointer;
+overflow-y: hidden;
 }
 
 body.landing {
@@ -116,6 +117,7 @@ background-color: black;
 color: beige;
 padding-top: 0.5%;
 font-size: 20px;
+overflow: scroll;
 }
 
 
@@ -217,4 +219,5 @@ border-radius: 50%;
 z-index: -1;
 animation: bounce 3.5s infinite;
 }
+
 
