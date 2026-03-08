@@ -313,6 +313,19 @@ CHAT PAGE
 width: 400px;
 margin: 50px auto;
 
+}
+
+/*
+
+SUBSCRIBE PAGE
+
+*/
+
+
+.bird {
+position: absolute; 
+right: 30%;
+top: 30%;
 
 
 }
