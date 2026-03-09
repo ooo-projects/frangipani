@@ -318,16 +318,19 @@ margin: 50px auto;
 .silver {
 position: absolute;
 right: 3%;
+top: 8%;
 }
 
 .yellowswirl {
 position: absolute;
 top: 40%;
+left: 3%;
 }
 
 .blueswirl {
 position: absolute;
-
+top: 7%;
+left: 3%;
 }
 
 .blue {
