@@ -226,7 +226,7 @@ box-shadow: inset 0px 0px 25px yellow;
 color: #1e2d14;
 border-radius: 50%;
 z-index: -1;
-
+animation: bounce 4.5s infinite;
 border: 1px solid;
 }
 
@@ -242,8 +242,9 @@ box-shadow: inset 0px 0px 25px yellow;
 color: #1e2d14;
 border-radius: 50%;
 z-index: -1;
-
+animation: bounce 3.5s infinite;
 border: 1px solid;
 }
+
 
 
