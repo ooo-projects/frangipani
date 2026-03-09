@@ -26,7 +26,7 @@ overflow-y: scroll;
 }
 
 body.landing {
-background-color: floralwhite;
+background-color: #1e2d14;
 background-image: none;
 background-size: contain;
 text-align: left;
@@ -46,30 +46,37 @@ color: beige;
 .landing_title {
 padding: 3%;
 position: absolute;
-top: 11%;
+top: 10.5%;
 font-size: 55px;
-color: transparent;
--webkit-text-stroke: 1px #1e2d14;
+color: yellow;
+-webkit-text-stroke: 1px black;
 font-family: Rounded;
 font-weight: bold;
 }
 
+.log {
+color: yellow;
+
+}
 
 .landing_subtitle {
 padding: 3%;
-font-size: 30px;
-color: #1e2d14;
+font-size: 39px;
+color: yellow;
+-webkit-text-stroke: 1px black;
 font-family: Rounded;
 }
 
 .enterbutton {
 position: absolute;
-left: 3%;
-background-color: transparent; 
-color: #1e2d14;
+right: 13%;
+bottom: 26%;
+transform: rotate(-3deg);
+background-color: transparent;
+color: yellow;
 padding: 4px;
 font-size: 33px; 
-border: 2px solid #1e2d14;
+border: 2px solid;
 }
 
 
@@ -214,12 +221,13 @@ display: block;
 position: absolute;
 bottom: 5%;
 right: 15%;
-background-color: transparent;
-box-shadow: inset 0px 0px 25px #1e2d14;
+background-color: yellow;
+box-shadow: inset 0px 0px 25px yellow;
 color: #1e2d14;
 border-radius: 50%;
 z-index: -1;
-animation: bounce 2.5s infinite;
+
+border: 1px solid;
 }
 
 .second_oval {
@@ -228,13 +236,14 @@ width: 150px;
 display: block;
 position: absolute;
 top: 29%;
-left: 50%;
-background-color: transparent;
-box-shadow: inset 0px 0px 25px #1e2d14;
+left: 10%;
+background-color: yellow;
+box-shadow: inset 0px 0px 25px yellow;
 color: #1e2d14;
 border-radius: 50%;
 z-index: -1;
-animation: bounce 3.5s infinite;
+
+border: 1px solid;
 }
 
 
