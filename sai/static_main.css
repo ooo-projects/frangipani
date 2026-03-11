@@ -307,6 +307,16 @@ CHAT PAGE
 
 */
 
+.chatbg {
+overflow-y: hidden; 
+background-color: aliceblue; 
+background-image: url('./si-assets/wood.png'); 
+background-size: repeat; 
+cursor: default; 
+
+}
+
+
 
 .room {
 
