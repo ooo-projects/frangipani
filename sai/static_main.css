@@ -316,10 +316,14 @@ cursor: default;
 
 }
 
+.nochat {
+display: none;
 
+
+}
 
 .room {
-
+display: block;
 width: 400px;
 margin: 75px auto;
 
