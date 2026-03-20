@@ -19,6 +19,7 @@ letter-spacing: 1px;
 font-style: normal;
 overflow-y: scroll;
 overflow-x: hidden;
+
 }
 
 u {
@@ -152,6 +153,16 @@ width: 75px;
 z-index: -1;
 }
 
+.precious-thumbnail {
+position: absolute;
+display: block;
+left: 51%;
+top: 15%;
+height: 100px;
+width: 100px;
+z-index: -1;
+}
+
 
 
 .interview-header {
@@ -170,7 +181,7 @@ padding: 3%;
 color: black;
 font-size: 22px;
 letter-spacing: 0px;
-line-height: 23px;
+line-height: 26px;
 }
 
 
