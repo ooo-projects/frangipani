@@ -1,0 +1,346 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+height: 100%;
+
+}
+
+body {
+margin-top: 15px;
+margin-left: 0;
+background-size: cover;
+height: 100%;
+background-color: honeydew;
+font-family: sans-serif;
+font-weight: lighter;
+color: saddlebrown;
+width: 100%;
+overflow-y: hidden;
+}
+
+@font-face {
+  font-family: Rounded; /* set name */
+  src: url('./Arial-Rounded/arial-rounded-mt-regular.ttf'); /* url of the font */
+}
+
+/*
+dot animation
+*/
+
+@keyframes pulse {
+from {opacity: 100;}
+to {opacity: 0%;}
+
+
+}
+
+.dot {
+width: 30px;
+height: 30px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+animation-name: pulse;
+animation-iteration-count: infinite;
+display: inline-block;
+}
+
+
+.one {
+top: 100px;
+left: 30px;
+animation-duration: 2s;
+}
+
+.two {
+top: 150px;
+left: 800px;
+animation-duration: 10s;
+
+}
+
+.three {
+top: 10px;
+right: 8px;
+animation-duration: 3s;
+
+}
+
+.four {
+top: 70px;
+right: 500px;
+animation-duration: 5s;
+}
+
+.five {
+top: 210px;
+left: 330px;
+animation-duration: 4s;
+}
+
+.six {
+bottom: 130px;
+right: 300px;
+animation-duration: 7s;
+animation-direction: reverse;
+}
+
+.seven {
+bottom: 80px;
+left: 1000px;
+animation-duration: 6s;
+}
+
+.eight {
+bottom: 15px;
+left: 600px;
+animation-duration: 4s;
+}
+
+.nine {
+top: 15px;
+left: 200px;
+animation-duration: 14s;
+}
+
+.ten {
+bottom: 45px;
+left: 275px;
+animation-duration: 4s;
+animation-direction: reverse;
+}
+/*
+dot animation
+*/
+
+/*
+signage
+*/
+
+.open {
+display: block;
+height: 400px;
+width: 394px;
+position: absolute;
+bottom: 3%;
+right: 1%;
+filter: contrast(130%) brightness(130%);
+z-index: 0;
+}
+
+
+/*
+signage
+*/
+
+/*
+Policies & Terms
+*/
+
+header {
+
+font-size: 22px;
+}
+
+#subheader {
+font-size: 18px;
+
+}
+
+.browse {
+transform: skewY(-5deg);
+font-size: 30px;
+float: left;
+margin: 5px;
+background-color: gainsboro;
+border-radius: 50%;
+padding: 5%;
+border: 4px black dashed;
+background-image: radial-gradient(gainsboro, ghostwhite);
+outline: 0.5px solid ghostwhite;
+font-family: sans-serif;
+letter-spacing: 3px;
+color: black;
+
+}
+
+.browse:hover {
+border: 1px solid black;
+
+}
+
+.grid {
+display: grid;
+width: 95%;
+margin: auto;
+border: 1px solid;
+padding: 10px;
+grid-gap: 0px;
+box-shadow: 6px 6px;
+border-radius: 10px;
+}
+
+.grid div.box {
+padding: 3%;
+border: 1px solid;
+
+
+}
+
+.logo {
+font-size: 55px;
+grid-area: 1 / 2 / span 1 / span 1;
+text-align: left;
+
+}
+
+.subheader {
+font-size: 22px;
+
+padding: 2%;
+grid-area: 2 / 1 / span 1 / span 2;
+}
+
+.shop {
+
+grid-area: 3 / 1 / span 1 / span 2;
+border: 1px solid;
+max-width: 100%;
+backdrop-filter: brightness(100%);
+
+}
+
+.shop2 {
+
+grid-area: 4 / 1 / span 1 / span 2;
+border: 1px solid;
+max-width: 100%;
+backdrop-filter: brightness(100%);
+}
+
+
+.info {
+padding: 1%;
+grid-area: 5 / 1 / span 1 / span 2;
+
+}
+
+
+.productsection {
+overflow-y: hidden;
+
+
+}
+
+.product {
+border-radius: 10px;
+width: 194px;
+height: 320px;
+margin-left: 40px;
+margin-top: 22px;
+padding-top: 10px;
+display: inline-block;
+border: 3px double;
+text-align: center;
+backdrop-filter: brightness(100%);
+color:saddlebrown;
+z-index: 5;
+}
+
+.buy {
+
+height: 50px;
+padding-right: 20px;
+padding-left: 20px;
+width: 190px;
+border: 2px dotted;
+position: relative;
+top: 3%;
+color:saddlebrown;
+background-color: transparent;
+}
+
+.buy:hover {
+
+background-color: aliceblue;
+}
+
+.explainer {
+position: absolute;
+right: 0%;
+top: -33%;
+width: 300px;
+height: 630px;
+background-color: pink;
+backdrop-filter: blur(50px);
+color: darkgreen;
+box-shadow: 4px 4px;
+border: 1px solid;
+padding: 1%;
+z-index: 4;
+display: none;
+font-family: courier new;
+letter-spacing: 1px;
+font-size: 20px;
+word-wrap: break-word;
+}
+
+#first-product:hover + .one {
+display: block;
+
+}
+
+#second-product:hover + .two {
+display: block;
+
+}
+
+#third-product:hover + .three {
+display: block;
+
+}
+
+#fourth-product:hover + .four {
+display: block;
+
+}
+
+#info-button:hover + .infobox {
+display: block;
+top: 10%;
+right: 40%;
+background-color: white;
+color: blue;
+height: 660px;
+}
+
+.shopheader {
+
+
+font-size: 55px;
+text-align: left;
+
+}
+
+
+/*
+
+
+
+background-image: url('./sitestudio_bg_blank.png');
+
+-webkit-text-stroke: 0.5pxsaddlebrown;
+text-shadow: 0px 0px 8px;
+
+background greens: 
+
+#e9fce0
+#e0fce5
+
+*/
