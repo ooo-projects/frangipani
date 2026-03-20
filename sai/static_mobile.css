@@ -97,6 +97,9 @@ bottom: 0;
 }
 
 
+
+
+
 .title-drawing {
 
 position: absolute;
@@ -227,10 +230,24 @@ CHAT PAGE
 
 .chatbg {
 overflow-y: hidden; 
-background-color: #656565; 
+background-color: aliceblue; 
 background-image: none;
 background-size: repeat; 
 cursor: default; 
+
+}
+
+.nochat {
+padding: 6%;
+font-family: courier new;
+display: block;
+margin-top: 60px;
+color: blue;
+}
+
+.room {
+
+display: none;
 
 }
 
