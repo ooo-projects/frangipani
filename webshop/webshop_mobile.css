@@ -120,6 +120,39 @@ dot animation
 */
 
 /*
+signage
+*/
+
+.signage {
+position: absolute;
+top: 61%;
+padding: 0.7%;
+border-radius: 40px;
+background-color: chartreuse;
+border: 2px solid;
+color: black;
+left: 13%;
+
+}
+
+.open {
+display: block;
+height: 400px;
+width: 394px;
+position: absolute;
+bottom: 3%;
+right: 1%;
+filter: contrast(130%) brightness(130%);
+z-index: 0;
+}
+
+
+/*
+signage
+*/
+
+
+/*
 home links
 */
 
