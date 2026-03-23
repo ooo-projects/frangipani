@@ -1,0 +1,263 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+background-color: whitesmoke;
+margin-top: 15px;
+margin-left: 0;
+background-image: none;
+background-size: cover;
+height: 100%;
+width: 100%;
+color: blue;
+}
+
+body.ecommerce {
+background-image: none;
+color: #302f30;
+}
+
+@font-face {
+  font-family: Rounded; /* set name */
+  src: url('./Arial-Rounded/arial-rounded-mt-regular.ttf'); /* url of the font */
+}
+
+
+
+@keyframes colors {
+
+0% {color: #1e2d14;}
+50% {color: fuchsia;}
+100% {color: #1e2d14;}
+
+}
+
+/*
+dot animation
+*/
+
+@keyframes pulse {
+from {opacity: 100;}
+to {opacity: 0%;}
+
+
+}
+
+.dot {
+width: 30px;
+height: 30px;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 50%;
+position: absolute;
+animation-name: pulse;
+animation-iteration-count: infinite;
+display: inline-block;
+}
+
+
+.one {
+top: 100px;
+left: 30px;
+animation-duration: 2s;
+}
+
+.two {
+display: none;
+
+}
+
+.three {
+top: 10px;
+right: 8px;
+animation-duration: 3s;
+
+}
+
+.four {
+display: none;
+}
+
+.five {
+top: 210px;
+left: 330px;
+animation-duration: 4s;
+}
+
+.six {
+bottom: 130px;
+right: 300px;
+animation-duration: 7s;
+animation-direction: reverse;
+}
+
+.seven {
+display: none;
+}
+
+.eight {
+display: none;
+}
+
+.nine {
+top: 15px;
+left: 200px;
+animation-duration: 14s;
+}
+
+.ten {
+bottom: 45px;
+left: 275px;
+animation-duration: 4s;
+animation-direction: reverse;
+}
+/*
+dot animation
+*/
+
+/*
+home links
+*/
+
+
+.browse {
+transform: skewY(-5deg);
+font-size: 30px;
+float: left;
+margin: 5px;
+background-color: gainsboro;
+border-radius: 50%;
+padding: 5.5%;
+border: 4px black dashed;
+background-image: radial-gradient(gainsboro, ghostwhite);
+outline: 0.5px solid ghostwhite;
+font-family: sans-serif;
+letter-spacing: 3px;
+color: black;
+text-align: center;
+
+}
+
+.browse:hover {
+border: 1px solid black;
+
+}
+
+/*
+home links
+*/
+
+
+.grid {
+display: grid;
+width: 95%;
+margin: auto;
+border: 1px solid;
+padding: 10px;
+grid-gap: 0px;
+}
+
+.grid div.box {
+padding: 3%;
+border: 1px solid;
+
+
+}
+
+.logo {
+font-size: 55px;
+grid-area: 1 / 2 / span 1 / span 1;
+text-align: right;
+}
+
+.explainer {
+font-size: 22px;
+padding: 2%;
+grid-area: 2 / 1 / span 1 / span 2;
+}
+
+.shop {
+
+grid-area: 3 / 1 / span 1 / span 2;
+border: 1px solid;
+max-width: 100%;
+}
+
+
+.footer {
+padding: 1%;
+grid-area: 4 / 1 / span 1 / span 2;
+font-size: 20px;
+}
+
+.product {
+border-radius: 10px;
+width: 194px;
+height: 320px;
+margin-left: 65px;
+margin-top: 22px;
+padding-top: 10px;
+float: left;
+background-color: transparent;
+border: 3px double;
+text-align: center;
+backdrop-filter: brightness(100%);
+}
+
+.buy {
+
+height: 50px;
+padding-right: 20px;
+padding-left: 20px;
+width: 190px;
+border: 2px dotted;
+position: relative;
+top: 3%;
+color: fuchsia;
+box-shadow: 0px 0px 3px fuchsia;
+}
+
+.buy:hover {
+
+box-shadow: 0px 0px 5px fuchsia;
+}
+
+.shopheader {
+-webkit-text-stroke: 0px yellow;
+text-shadow: none;
+
+font-size: 55px;
+text-align: left;
+
+}
+
+#first-product:hover + #one {
+display: none;
+
+}
+
+#second-product:hover + #two {
+display: none;
+
+}
+
+#third-product:hover + #three {
+display: none;
+
+}
+
+#fourth-product:hover + #four {
+display: none;
+
+}
+
+
+#info-button {
+display: none;
+}
+
+
