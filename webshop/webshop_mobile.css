@@ -51,17 +51,18 @@ to {opacity: 0%;}
 .dot {
 width: 30px;
 height: 30px;
-background-color: black;
+background-color: silver;
 border-radius: 50%;
 position: absolute;
-animation-name: none;
+animation-name: pulse;
 animation-iteration-count: infinite;
 display: inline-block;
+z-index: -1;
 }
 
 
 .one {
-top: 10px;
+top: 100px;
 left: 30px;
 animation-duration: 2s;
 }
@@ -302,6 +303,7 @@ margin-top: 50px;
 padding: 6%;
 
 }
+
 
 
 
