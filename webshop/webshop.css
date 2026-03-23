@@ -12,18 +12,24 @@ height: 100%;
 }
 
 body {
+
 margin-top: 15px;
 margin-left: 0;
 background-size: cover;
 height: 100%;
-background-color: honeydew;
+background-color: white;
 font-family: sans-serif;
 font-weight: lighter;
-color: saddlebrown;
 width: 100%;
 overflow-y: hidden;
 }
 
+
+body.ecommerce {
+background-image: url('./sky.jpeg'); 
+color: #302f30;
+
+}
 @font-face {
   font-family: Rounded; /* set name */
   src: url('./Arial-Rounded/arial-rounded-mt-regular.ttf'); /* url of the font */
@@ -242,16 +248,16 @@ backdrop-filter: brightness(100%);
 
 }
 
-.shop2 {
+.explainers {
 
-grid-area: 4 / 1 / span 1 / span 2;
+grid-area: 3 / 2 / span 1 / span 1;
 border: 1px solid;
 max-width: 100%;
 backdrop-filter: brightness(100%);
 }
 
 
-.info {
+.footer {
 padding: 1%;
 grid-area: 5 / 1 / span 1 / span 2;
 
@@ -275,9 +281,11 @@ display: inline-block;
 border: 3px double;
 text-align: center;
 backdrop-filter: brightness(100%);
-color:saddlebrown;
+color: black;
 z-index: 5;
 }
+
+
 
 .buy {
 
@@ -288,26 +296,28 @@ width: 190px;
 border: 2px dotted;
 position: relative;
 top: 3%;
-color:saddlebrown;
+color:black;
 background-color: transparent;
 }
 
 .buy:hover {
 
-background-color: aliceblue;
+background-color: black;
+color: white;
 }
 
 .explainer {
-position: absolute;
+position: fixed;
 right: 0%;
-top: -33%;
+top: -30%;
 width: 300px;
 height: 630px;
-background-color: pink;
+background-color: white;
 backdrop-filter: blur(50px);
-color: darkgreen;
+color: black;
 box-shadow: 4px 4px;
 border: 1px solid;
+border-radius: 10px;
 padding: 1%;
 z-index: 4;
 display: none;
@@ -317,22 +327,22 @@ font-size: 20px;
 word-wrap: break-word;
 }
 
-#first-product:hover + .one {
+#first-product:hover + #one {
 display: block;
 
 }
 
-#second-product:hover + .two {
+#second-product:hover + #two {
 display: block;
 
 }
 
-#third-product:hover + .three {
+#third-product:hover + #three {
 display: block;
 
 }
 
-#fourth-product:hover + .four {
+#fourth-product:hover + #four {
 display: block;
 
 }
@@ -341,8 +351,6 @@ display: block;
 display: block;
 top: 10%;
 right: 40%;
-background-color: white;
-color: blue;
 height: 660px;
 }
 
@@ -361,7 +369,7 @@ text-align: left;
 
 background-image: url('./sitestudio_bg_blank.png');
 
--webkit-text-stroke: 0.5pxsaddlebrown;
+-webkit-text-stroke: 0.5px black;
 text-shadow: 0px 0px 8px;
 
 background greens: 
