@@ -51,10 +51,10 @@ to {opacity: 0%;}
 .dot {
 width: 30px;
 height: 30px;
-background-color: rgba(127, 255, 0, 0.5);
+background-color: rgba(135, 206, 235, 0.3);
 border-radius: 50%;
 position: absolute;
-animation-name: pulse;
+animation-name: none;
 animation-iteration-count: infinite;
 display: inline-block;
 }
@@ -160,7 +160,7 @@ margin: 5px;
 background-color: gainsboro;
 border-radius: 50%;
 padding: 5.5%;
-border: 4px black dashed;
+border: 4px black dotted;
 background-image: radial-gradient(gainsboro, ghostwhite);
 outline: 0.5px solid ghostwhite;
 font-family: sans-serif;
@@ -263,29 +263,41 @@ text-align: left;
 
 }
 
-#first-product:hover + #one {
+#one {
 display: none;
 
 }
 
-#second-product:hover + #two {
+#two {
 display: none;
 
 }
 
-#third-product:hover + #three {
+#three {
 display: none;
-
 }
 
-#fourth-product:hover + #four {
+#four {
 display: none;
-
 }
 
 
 #info-button {
 display: none;
 }
+
+
+
+.mobile-descriptions {
+
+display: block;
+margin-top: 50px;
+padding: 6%;
+
+}
+
+
+
+
 
 
