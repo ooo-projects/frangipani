@@ -123,16 +123,12 @@ dot animation
 signage
 */
 
-.signage {
-position: absolute;
-top: 61%;
-padding: 0.7%;
-border-radius: 40px;
-background-color: chartreuse;
-color: black;
-left: 13%;
+.greyed {
 
+opacity: 50%;
 }
+
+
 
 .open {
 display: block;
@@ -291,5 +287,6 @@ display: none;
 #info-button {
 display: none;
 }
+
 
 
