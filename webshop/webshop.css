@@ -155,16 +155,9 @@ dot animation
 signage
 */
 
-.signage {
-position: absolute;
-top: 33%;
-padding: 0.4%;
-border-radius: 0px;
-background-color: chartreuse;
-border: 4.5px groove chartreuse;
-color: black;
-left: 13%;
+.greyed {
 
+opacity: 50%;
 }
 
 .open {
