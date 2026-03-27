@@ -51,20 +51,20 @@ to {opacity: 0%;}
 .dot {
 width: 30px;
 height: 30px;
-background-color: silver;
+background-color: fuchsia;
 border-radius: 50%;
 position: absolute;
 animation-name: pulse;
 animation-iteration-count: infinite;
 display: inline-block;
-z-index: -1;
+
 }
 
 
 .one {
-top: 100px;
+top: 88px;
 left: 30px;
-animation-duration: 2s;
+animation-duration: 4.5s;
 }
 
 .two {
@@ -101,7 +101,7 @@ display: none;
 }
 
 .eight {
-display: none;
+
 }
 
 .nine {
@@ -188,6 +188,7 @@ margin: auto;
 border: 1px solid;
 padding: 10px;
 grid-gap: 0px;
+background-color: white;
 }
 
 .grid div.box {
@@ -238,7 +239,7 @@ margin-left: 65px;
 margin-top: 22px;
 padding-top: 10px;
 float: left;
-background-color: transparent;
+background-color: white;
 border: 3px double;
 text-align: center;
 backdrop-filter: brightness(100%);
@@ -265,7 +266,7 @@ box-shadow: 0px 0px 5px fuchsia;
 .shopheader {
 -webkit-text-stroke: 0px yellow;
 text-shadow: none;
-
+background-color: whitesmoke;
 font-size: 55px;
 text-align: left;
 
@@ -303,6 +304,7 @@ margin-top: 50px;
 padding: 6%;
 
 }
+
 
 
 
