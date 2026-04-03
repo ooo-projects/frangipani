@@ -10,7 +10,7 @@
 body {
 margin: 0 0;
 background-color: whitesmoke;
-background-image: url('../html-class-assets/ori3.jpg');
+background-image: url('./pub-assets/ori3.jpg');
 background-attachment: fixed;
 color: black;
 background-size: cover;
