@@ -20,12 +20,12 @@ font-family: serif;
 
 @font-face {
     font-family: 'Averia';
-    src: url('../Averia/AveriaSerifLibre-Bold.ttf'),
-    src: url('../Averia/AveriaSerifLibre-BoldItalic.ttf'),
-    src: url('../Averia/AveriaSerifLibre-Italic.ttf'),
-    src: url('../Averia/AveriaSerifLibre-Light.ttf'),
-    src: url('../Averia/AveriaSerifLibre-LightItalic.ttf'),
-    src: url('../Averia/AveriaSerifLibre-Regular.ttf'),
+    src: url('./Averia/AveriaSerifLibre-Bold.ttf'),
+    src: url('./Averia/AveriaSerifLibre-BoldItalic.ttf'),
+    src: url('./Averia/AveriaSerifLibre-Italic.ttf'),
+    src: url('./Averia/AveriaSerifLibre-Light.ttf'),
+    src: url('./Averia/AveriaSerifLibre-LightItalic.ttf'),
+    src: url('./Averia/AveriaSerifLibre-Regular.ttf'),
     font-weight: normal;
     font-style: normal;
 
