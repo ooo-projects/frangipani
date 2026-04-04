@@ -155,7 +155,7 @@ bottom: 26%;
 width: 300px;
 height: 400px;
 border: 12px pink ridge;
-
+transform: rotate(-2deg);
 }
 
 
