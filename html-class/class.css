@@ -87,9 +87,8 @@ background-color: floralwhite;
 float: left;
 margin: 50px;
 color: black;
-box-shadow: 2px 2px 4px dimgray;
+box-shadow: 2px 2px 40px dimgray;
 }
-
 
 #thumbnail {
 height: 85%;
