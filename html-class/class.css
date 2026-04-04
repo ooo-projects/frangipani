@@ -48,7 +48,7 @@ text-decoration-color: chartreuse;
 #footer {
 left: 0;
 padding: 1%;
-background-color: transparent;
+background-color: aliceblue;
 opacity: 100%;
 position: fixed;
 bottom: 0%;
@@ -151,7 +151,7 @@ animation-direction: alternate;
 cursor: url('https://cdn.cursors-4u.net/previews/yellow-polka-dotted-pencil-2fd6c581-32.webp') 32 32, auto !important;
 position: fixed;
 right: 33%;
-bottom: 26%;
+bottom: 19%;
 width: 300px;
 height: 400px;
 border: 12px pink ridge;
