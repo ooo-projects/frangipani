@@ -19,7 +19,7 @@ cursor: crosshair;
 }
 
 body {
-color: #275b4b;
+color: maroon;
 background-color: floralwhite;
 font-size: 16px;
 font-family: serif;
@@ -44,7 +44,7 @@ text-align: justify;
 }
 
 a {
-color: #275b4b;
+color: maroon;
 }
 
 
@@ -159,6 +159,14 @@ font-family: kabina;
 font-size: 22px;
 letter-spacing: 3px;
 }
+
+
+
+/*
+deep blue: #275b4b;
+
+*/
+
 
 
 
