@@ -19,7 +19,7 @@ cursor: crosshair;
 }
 
 body {
-color: maroon;
+color: #275b4b;
 background-color: floralwhite;
 font-size: 16px;
 font-family: serif;
@@ -44,7 +44,7 @@ text-align: justify;
 }
 
 a {
-color: maroon;
+color: #275b4b;
 }
 
 
@@ -52,8 +52,8 @@ color: maroon;
 
 #illustration {
 position: fixed;
-right: 1%;
-bottom: 19%;
+right: 9%;
+bottom: 22%;
 transform: scaleX(-1);
 opacity: 3%;
 
@@ -117,6 +117,7 @@ top: 0%;
 border: 1px solid;
 border-right-width: 0.5px;
 padding: 3px;
+text-align: right;
 }
 
 .sidebar:hover {
@@ -151,7 +152,7 @@ right: 30%;
 
 #who {
 position: absolute;
-bottom: 40%;
+bottom: 55%;
 left: 30%;
 width: 30%;
 font-family: kabina;
@@ -166,7 +167,6 @@ letter-spacing: 3px;
 deep blue: #275b4b;
 
 */
-
 
 
 
