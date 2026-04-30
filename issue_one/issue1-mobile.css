@@ -39,14 +39,14 @@ padding: 10px;
 
 .txt {
 
-width: 90%;
+width: 95%;
 text-align: justify;
 
 }
 
 .pieces {
 
-width: 90%;
+width: 95%;
 text-align: justify;
 }
 
@@ -110,6 +110,7 @@ position: absolute;
 right: 5%;
 bottom: 10%;
 opacity: 3%;
+z-index: -1;
 }
 
 
@@ -173,6 +174,9 @@ display: none;
 deep blue: #275b4b;
 
 */
+
+
+
 
 
 
