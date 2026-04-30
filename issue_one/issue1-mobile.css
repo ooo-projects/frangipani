@@ -1,0 +1,178 @@
+/*
+
+
+mamasima beige: #d3b998;
+mamasima brown: #913200;
+mamasima mahogany: #5b1500;
+mamasima light brown: #774317;
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+height: 100%;
+cursor: crosshair;
+}
+
+body {
+color: #275b4b;
+background-color: floralwhite;
+font-size: 17px;
+font-family: serif;
+letter-spacing: 0.5px;
+cursor: crosshair;
+padding: 10px;
+}
+
+@font-face {
+    font-family: 'Kabina';
+    src: url('./kabina/KabinaBd.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.txt {
+
+width: 90%;
+text-align: justify;
+
+}
+
+.pieces {
+
+width: 90%;
+text-align: justify;
+}
+
+a {
+color: #275b4b;
+}
+
+
+
+
+#illustration {
+position: fixed;
+right: 9%;
+bottom: 22%;
+transform: scaleX(-1);
+opacity: 3%;
+
+}
+
+#poster {
+position: static;
+right: 40%;
+bottom: 0%;
+border: 0.5px solid black;
+border-right: none;
+}
+
+#card {
+position: absolute;
+left: 22%;
+bottom: 7%;
+opacity: 100%;
+transform: rotate(-5deg);
+}
+
+#guys {
+position: static;
+filter: grayscale(100%);
+left: 0%;
+
+}
+
+#me {
+position: static;
+filter: grayscale(100%);
+left: 16%;
+
+}
+
+#head {
+position: sticky;
+left: 0%;
+bottom: 0.5%;
+filter: grayscale(90%);
+
+}
+
+#title {
+
+position: absolute;
+right: 5%;
+bottom: 10%;
+opacity: 3%;
+}
+
+
+
+.sidebar {
+position: static;
+height: 10%;
+width: 50%;
+top: 0%;
+border: 1px solid;
+border-right-width: 0.5px;
+padding: 3px;
+text-align: center;
+}
+
+.sidebar:hover {
+
+background-color: cornsilk;
+}
+
+#one {
+right: 0%;
+
+}
+
+#two {
+
+right: 10%;
+
+}
+
+
+#three {
+
+right: 20%;
+
+}
+
+#four {
+
+right: 30%;
+
+}
+
+
+#who {
+position: absolute;
+bottom: 55%;
+left: 30%;
+width: 30%;
+font-family: kabina;
+-webkit-text-stroke: 0px transparent;
+font-size: 22px;
+letter-spacing: 3px;
+display: none;
+}
+
+
+
+/*
+deep blue: #275b4b;
+
+*/
+
+
+
