@@ -29,12 +29,36 @@ letter-spacing: 3px;
 
 }
 
+#banner {
+background-color: blue;
 
+
+}
 .txt {
 
 display: none;
 }
 
+
+
+#details {
+
+background-color: blue;
+}
+
+
+
+#opencall {
+
+background-color: blue;
+}
+
+
+footer {
+background-color: blue;
+
+
+}
 .yellowlogo {
 transform: scale(5%);
 position: fixed;
