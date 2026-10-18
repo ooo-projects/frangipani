@@ -37,6 +37,7 @@ body.landing {
 background-color: #1e2d14;
 background-image: none;
 background-size: contain;
+border-bottom-color: transparent;
 text-align: left;
 width: 100%;
 margin-top: 20.5%;
