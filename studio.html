@@ -1,241 +1,91 @@
+<!DOCTYPE html>
+<html style = "border: 3px solid yellow;">
+<head>
 
+<title>Studio Static</title>
+<link href = './studio.css' rel = "stylesheet">
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: portrait)" href="./studio_mobile.css">
+
+<link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: landscape)" href="./ss-mobile-landscape.css">
+
+<style>
 html {
-
-
-height: 100%;
-border-radius: 0px;
-
+cursor: url('./beige_circle.png') 50 50, auto !important;
+cursor: url('./beige_circle.png')50 50, pointer;
 }
 
 body {
-background-image: url('./sitestudio_bg_blank.png');
-background-size: cover;
-height: 100%;
-background-color: floralwhite;
-font-family: Rounded;
-color: fuchsia;
-font-size: 22px;
-width: 700px;
-overflow-y: scroll;
-}
+        cursor: url('./beige_circle.png') 50 50, auto !important;
+	cursor: url('./beige_circle.png')50 50, pointer !important;
+        }
 
-body.landing {
-background-image: none;
-background-color: #3a3d22;
-background-size: cover;
-padding: 1%;
-width: 100%;
-color: yellow;
-font-weight: bold;
-font-size: 55px;
-margin-left: 0;
-text-align: left;
-cursor: url('./beige_circle.png') 50 50, auto !important;
-overflow-y: scroll;
-
-}
-
-.landing_title {
-position: absolute;
-top: 0%;
--webkit-text-stroke: 1.5px black;
-font-size: 100px;
-font-weight: normal;
-text-decoration: underline;
-text-decoration-style: wavy;
-text-decoration-thickness: 4px;
-
-}
-
-.landing_subtitle {
--webkit-text-stroke: 1px black;
-font-weight: normal;
-font-size: 36px;
-}
-
-.enterbutton {
-border: 2px solid black;
-background-color: transparent; 
-color: yellow; 
--webkit-text-stroke: 1px black;
-font-family: Rounded; 
-padding: 5px; 
-font-size: 40px; 
-border-color: yellow;
-cursor: url('./beige_circle.png') 50 50, auto !important;
-}
+</style>
 
 
-@font-face {
-  font-family: Rounded; /* set name */
-  src: url('./Arial-Rounded/arial-rounded-mt-regular.ttf'); /* url of the font */
-}
-
-a {
-color: fuchsia;
-text-decoration: none;
-}
+</head>
+<body class = "landing">
 
 
 
-ul {
 
-list-style-type: none;
+<div class = "landing_title">Studio Static
 
-}
+</div>
 
-li {
+<div class = "landing_subtitle">
+<br><br><br>
+<span class = "log">&#x2725;</span>
+<br>
+Handmade
+<br>
+websites
+<br>
+for
+<br>
+artists
+<br>
+and
+<br>
+their
+<br>
+organizations.</div>
 
-padding-bottom: 3px;
-}
-
-mark {
-
-background-color: black;
-color: yellow;
-
-}
-
-.ss_title {
-
-font-size: 20px;
-}
-
-.faq {
-
-font-size: 18px;
-color: beige;
-
-}
+<a href = "./studio_info.html"><button class = "enterbutton"> 
+Explore
+</button></a>
 
 
-.answer {
-color: fuchsia;
-font-size: 16.5px;
-}
+<div class = "mamasima">
+&#x2725;Studio Static is an arm of Mamasima Studio, the miniature design and publishing practice of artist Oritsemughone Ogbemi. <br>
+
+</div>
+
+<div class = "mamasima" style = "right: 6%; bottom: 11px; padding-top: 4.5%; padding-left: 1.5%; padding-right: 0%; width: 200px; text-align: left;">
+Read our <a href = "./webshop/terms.html" style = "color: black; text-decoration: underline; text-decoration-style: wavy; text-decoration-thickness: 1.4px;">Terms</a> 
+<br>
+Read our <a href = "./webshop/privacy.html" style = "color: black; text-decoration: underline; text-decoration-style: wavy; text-decoration-thickness: 1.4px;">Privacy Policy</a> 
+<br>
+&#x26DF;
+
+</div>
+
+<marquee class = "books">
+&#x2058; Our books are open! Click 'Explore' &#x2058;
+</marquee>
 
 
-.costbreakdown {
-width: 25%;
-height: 105%;
 
-position: absolute;
-left: 75%;
-top: 0%;
-background-color: rgba(1, 1, 1, 0.35);
-color: beige;
-padding-top: 0.5%;
-font-size: 20px;
-overflow: scroll;
-}
+<div class = "first_oval">
+</div>
 
+<div class = "second_oval">
+</div>
 
-.package {
-width: 80%;
-height: 20%;
-background-color: silver;
-position: relative;
-left: 10%;
-color: blue;
-padding: 3%;
-font-family: sans-serif;
-font-weight: lighter;
-border: 4px ridge gainsboro;
-font-size: 16px;
-border-radius: 2px;
-overflow: scroll;
-}
-
-
-.price {
-
-
-font-weight: normal;
-}
-
-
-.candle {
-position: absolute;
-filter: grayscale(0%);
-right: 29%;
-bottom: 3%;
-}
-
-
-.mamasima {
-position: fixed;
-right: 30%;
-bottom: 33%;
-width: 350px;
-height: 200px;
-color: black;
-border: 2px solid black;
-background-color: yellow;
-text-shadow: none;
-box-shadow: 0px 0px 22px yellow inset;
-border-radius: 50%;
-padding: 3.5%;
-font-size: 17px;
-font-weight: normal;
-text-align: justify;
-transform: rotate(-6.5deg);
-}
-
-
-.books {
-width: 100%;
-position: absolute;
-top: 16%;
-right: 0%;
-font-size: 50px;
-font-weight: normal;
--webkit-text-stroke: 1.5px black;
-}
-
-
-.morebody {
-height: 200px;
-width: 100%;
-position fixed;
-bottom: 0%;
-color: darkgreen;
-
-}
-
-
-.first_oval {
-height: 75px;
-width: 75px;
-display: block;
-position: absolute;
-bottom: 5%;
-right: 35%;
-background-color: yellow;
-color: #1e2d14;
-border-radius: 50%;
-z-index: -1;
-animation: bounce 2.5s infinite;
-}
-
-.second_oval {
-height: 75px;
-width: 75px;
-display: block;
-position: absolute;
-top: 29%;
-left: 40%;
-background-color: yellow;
-color: #1e2d14;
-border-radius: 50%;
-z-index: -1;
-animation: bounce 3.5s infinite;
-}
+</body>
+</html>
 
 
