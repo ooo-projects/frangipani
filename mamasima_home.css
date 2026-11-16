@@ -40,7 +40,7 @@ background-color: seashell;
 width: 404px;
 height: 404px;
 padding: 2%;
-box-shadow: 2px 2px 2px gray;
+box-shadow: 2px 2px 1.5px gray;
 border: 0.5px solid silver;
 transform: rotate(0deg);
 }
