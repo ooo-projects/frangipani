@@ -1,0 +1,52 @@
+/*
+
+
+mamasima beige: #d3b998;
+mamasima brown: #913200;
+mamasima mahogany: #5b1500;
+mamasima light brown: #774317;
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+height: 100%;
+}
+
+body {
+padding-left: 3px;
+margin: 0 0;
+color: chartreuse;
+-webkit-text-stroke: 1px red;
+background-color: #1e2d14;
+font-size: 22px;
+font-family: arial narrow, sans-serif;
+letter-spacing: 3px;
+overflow-x: hidden;
+background-image: url('./extraextra.png');
+background-size: contain;
+
+}
+
+#text {
+position: absolute;
+left: 10%;
+top: 10%;
+background-color: oldlace;
+width: 400px;
+height: 400px;
+padding: 2%;
+box-shadow: 2px 2px 4px dimgray;
+
+}
+
+a {
+
+
+color: yellow;
+text-decoration-color: green;
+}
