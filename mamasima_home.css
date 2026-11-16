@@ -34,7 +34,7 @@ background-size: contain;
 
 #text {
 position: absolute;
-left: 10%;
+left: 11%;
 top: 10%;
 background-color: oldlace;
 width: 400px;
@@ -42,7 +42,7 @@ height: 400px;
 padding: 2%;
 box-shadow: 2px 2px 2px gray;
 border: 0.5px solid silver;
-transform: rotate(1.5deg);
+transform: rotate(-1.5deg);
 }
 
 a {
