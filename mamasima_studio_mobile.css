@@ -121,3 +121,10 @@ backdrop-filter: blur(10px);
 
 
 }
+
+
+#chat {
+
+display: none;
+
+}
