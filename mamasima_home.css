@@ -22,12 +22,12 @@ padding-left: 3px;
 margin: 0 0;
 color: chartreuse;
 -webkit-text-stroke: 1px red;
-background-color: #1e2d14;
+background-color: seashell;
 font-size: 22px;
 font-family: arial narrow, sans-serif;
 letter-spacing: 3px;
 overflow-x: hidden;
-background-image: url('./extraextra.png');
+
 background-size: contain;
 
 }
@@ -36,13 +36,13 @@ background-size: contain;
 position: absolute;
 left: 11%;
 top: 10%;
-background-color: oldlace;
-width: 400px;
-height: 400px;
+background-color: seashell;
+width: 404px;
+height: 404px;
 padding: 2%;
 box-shadow: 2px 2px 2px gray;
 border: 0.5px solid silver;
-transform: rotate(-1.5deg);
+transform: rotate(0deg);
 }
 
 a {
