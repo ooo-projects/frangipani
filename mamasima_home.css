@@ -27,9 +27,9 @@ font-size: 22px;
 font-family: arial narrow, sans-serif;
 letter-spacing: 3px;
 overflow-x: hidden;
-
 background-size: contain;
-
+height: 100%;
+border-left: 4px dashed black;
 }
 
 #text {
