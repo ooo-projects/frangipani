@@ -38,7 +38,7 @@ border-top: 4px dotted black;
 #text {
 position: absolute;
 left: 11%;
-top: 10%;
+top: 6%;
 background-color: translucent;
 backdrop-filter: blur(10px);
 width: 404px;
