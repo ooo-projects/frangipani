@@ -40,8 +40,9 @@ background-color: oldlace;
 width: 400px;
 height: 400px;
 padding: 2%;
-box-shadow: 2px 2px 4px dimgray;
-
+box-shadow: 2px 2px 2px gray;
+border: 0.5px solid silver;
+transform: rotate(1.5deg);
 }
 
 a {
