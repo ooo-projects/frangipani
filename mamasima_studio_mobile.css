@@ -117,7 +117,7 @@ font-size: 22px;
 width: 303px;
 height: 505px;
 background-color: transparent;
-backdrop-filter: blur(80px);
+backdrop-filter: blur(10px);
 
 
 }
