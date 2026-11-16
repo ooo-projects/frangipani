@@ -58,7 +58,17 @@ backdrop-filter: invert(100%);
 
 a {
 
-
 color: yellow;
 text-decoration-color: green;
+}
+
+
+#chat {
+
+position: absolute;
+bottom: 5%;
+right: 5%;
+
+
+
 }
