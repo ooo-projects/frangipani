@@ -29,8 +29,10 @@ letter-spacing: 3px;
 overflow-x: hidden;
 background-size: contain;
 height: 100%;
-
 border-right: 4px dashed black;
+
+border-left: 4px dashed black;
+border-top: 4px dashed black;
 }
 
 #text {
