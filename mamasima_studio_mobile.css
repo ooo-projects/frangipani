@@ -29,12 +29,7 @@ font-family: arial narrow, sans-serif;
 letter-spacing: 3px;
 }
 
-body.studiolanding {
 
-background-color: #1e2d14;
-color: yellow;
-font-size: 33px;
-}
 
 a {
 color: #c65b5b;
@@ -110,13 +105,19 @@ border-bottom: 1px dashed yellow;
 
 }
 
+#landing {
+
+background-color: seashell;
+border: none;
+}
 
 
 #text {
 font-size: 22px;
 width: 303px;
-height: 303px;
-
+height: 505px;
+background-color: transparent;
+backdrop-filter: blur(80px);
 
 
 }
