@@ -35,6 +35,12 @@ border-top: 4px dotted black;
 
 }
 
+img {
+
+width: 200px;
+
+}
+
 #text {
 position: absolute;
 left: 11%;
@@ -68,7 +74,5 @@ text-decoration-color: green;
 position: absolute;
 bottom: 5%;
 right: 5%;
-
-
 
 }
