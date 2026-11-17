@@ -122,6 +122,10 @@ backdrop-filter: blur(10px);
 
 }
 
+img.halftone {
+width: 333px;
+
+}
 
 #chat {
 
