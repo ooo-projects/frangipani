@@ -30,8 +30,7 @@ overflow-x: hidden;
 background-size: contain;
 height: 100%;
 background-image: url('./extraextra.png');
-border-bottom: 7px dashed black;
-
+border-left: 22px solid deeppink;
 
 }
 
@@ -46,12 +45,12 @@ position: absolute;
 left: 11%;
 top: 11%;
 background-color: rgba(240, 248, 255, 0.4);
-backdrop-filter: blur(10px);
+backdrop-filter: blur(90px);
 width: 404px;
 height: 404px;
 padding: 2%;
 box-shadow: 2px 2px 1.5px gray;
-border: 0.5px solid silver;
+border: 0.5px solid black;
 transform: rotate(0deg);
 }
 
