@@ -30,7 +30,7 @@ overflow-x: hidden;
 background-size: contain;
 height: 100%;
 
-border-bottom: 4px dotted black;
+border-bottom: 4px dashed black;
 border-top: 4px dotted black;
 
 }
